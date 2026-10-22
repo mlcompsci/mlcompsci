@@ -16,10 +16,7 @@
 
 ## 🧪 the ml lab
 
-<a href="https://github.com/mlcompsci/Hanabi"><img src="assets/projects/hanabi.svg" alt="Intentional Hanabi: a reproduction of An Intentional AI for Hanabi (IEEE CIG 2017)" width="49%"></a>
 <a href="https://github.com/mlcompsci/FruitVegetablePredictor"><img src="assets/projects/produce.svg" alt="Produce Identifier: a self-bootstrapping MobileNetV3 image classifier served with FastAPI" width="49%"></a>
-<a href="https://github.com/stefan-dam/Prosody-Emotion-Classifier"><img src="assets/projects/prosody.svg" alt="Prosody Emotion Classifier: speech emotion recognition with HuBERT" width="49%"></a>
-<a href="https://github.com/nikolassantoso/PersonaAgents"><img src="assets/projects/persona.svg" alt="PersonaAgent: autonomous browser agents that test web apps as user personas" width="49%"></a>
 
 ## ⚙️ systems & tools
 

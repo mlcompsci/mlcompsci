@@ -34,32 +34,11 @@
 
   "projects": [
     {
-      "id": "hanabi", "section": "ml", "art": "hanabi", "color": "#f472b6",
-      "title": "Intentional Hanabi", "tag": "GAME AI · PAPER REPRO",
-      "desc": "Reproduced “An Intentional AI for Hanabi” (CIG ’17): mental-state tracking, intention-based hints, self-play.",
-      "tech": ["Python", "game AI", "self-play"],
-      "repo": "mlcompsci/Hanabi", "role": "my repo"
-    },
-    {
       "id": "produce", "section": "ml", "art": "classifier", "color": "#34d399",
       "title": "Produce Identifier", "tag": "COMPUTER VISION",
       "desc": "Image classifier that fetches its own data, fine-tunes MobileNetV3 and serves predictions over FastAPI.",
       "tech": ["PyTorch", "MobileNetV3", "FastAPI"],
       "repo": "mlcompsci/FruitVegetablePredictor", "role": "my repo"
-    },
-    {
-      "id": "prosody", "section": "ml", "art": "waveform", "color": "#a78bfa",
-      "title": "Prosody Emotion Classifier", "tag": "SPEECH · AURA",
-      "desc": "Speech emotion recognition with HuBERT on RAVDESS and CREMA-D, mapping 7 emotions onto valence, arousal and dominance.",
-      "tech": ["HuBERT", "Transformers", "PyTorch"],
-      "repo": "stefan-dam/Prosody-Emotion-Classifier", "role": "contributor"
-    },
-    {
-      "id": "persona", "section": "ml", "art": "agent", "color": "#38bdf8",
-      "title": "PersonaAgent", "tag": "LLM AGENTS",
-      "desc": "Autonomous browser agents that test web apps through the eyes of user personas. Can a real user actually reach their goal?",
-      "tech": ["agents", "TypeScript", "FastAPI"],
-      "repo": "nikolassantoso/PersonaAgents", "role": "contributor"
     },
     {
       "id": "pipefork", "section": "systems", "art": "pipes", "color": "#fbbf24",
