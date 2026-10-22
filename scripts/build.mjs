@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Generates every SVG in assets/ from data/profile.json.
 // Usage: node scripts/build.mjs   (no dependencies, Node 18+)
+import { createHash } from 'node:crypto';
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -406,10 +407,12 @@ function footer() {
 
 // ---------------------------------------------------------------- write
 
+const versions = {};
 const out = (rel, content) => {
   const file = join(ROOT, 'assets', rel);
   mkdirSync(dirname(file), { recursive: true });
   writeFileSync(file, content);
+  versions[`assets/${rel}`] = createHash('sha1').update(content).digest('hex').slice(0, 8);
   console.log(`✓ assets/${rel}`);
 };
 out('hero.svg', hero());
@@ -417,3 +420,13 @@ out('course-map.svg', courseMap());
 for (const p of P.projects) out(`projects/${p.id}.svg`, projectCard(p));
 out('stack.svg', stack());
 out('footer.svg', footer());
+
+// GitHub lets browsers cache README images for 5 minutes, so stamp each
+// reference with its content hash: a changed image gets a new URL.
+const readmeFile = join(ROOT, 'README.md');
+const readme = readFileSync(readmeFile, 'utf8');
+const stamped = readme.replace(/(assets\/[\w./-]+\.svg)(\?v=[0-9a-f]+)?/g, (m, path) => (versions[path] ? `${path}?v=${versions[path]}` : m));
+if (stamped !== readme) {
+  writeFileSync(readmeFile, stamped);
+  console.log('✓ README.md image versions');
+}

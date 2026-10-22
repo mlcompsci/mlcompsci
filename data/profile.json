@@ -8,7 +8,7 @@
       "training models that actually ship",
       "deep learning · NLP · LLM agents",
       "from gradients to gRPC: model → prod",
-      "currently: neural parsers + a startup"
+      "currently: neural dependency parsing"
     ],
     "tags": ["deep learning", "NLP", "LLM agents", "inference infra"],
     "network": { "inputs": ["data", "math", "code"], "outputs": ["models", "shipped"] }
@@ -23,7 +23,8 @@
     { "id": "systems", "name": "Systems", "color": "#fbbf24" }
   ],
   "courses": [
-    { "code": "CSC311", "name": "Intro to Machine Learning", "term": "Fall 2025", "track": "ml", "built": "NN + naive Bayes clf", "leads_to": ["CSC485"] },
+    { "code": "CSC311", "name": "Intro to Machine Learning", "term": "Fall 2025", "track": "ml", "built": "NN + naive Bayes clf", "leads_to": ["CSC413"] },
+    { "code": "CSC413", "name": "Deep Learning", "term": "Winter 2026", "track": "ml", "built": "CNNs, RNNs, attention", "leads_to": ["CSC485"] },
     { "code": "CSC485", "name": "Computational Linguistics", "term": "Fall 2026", "track": "ml", "built": "neural dep. parsers" },
     { "code": "STA237", "name": "Probability & Statistics", "term": "Fall 2024", "track": "math", "built": "the math under the ML", "leads_to": ["CSC311", "CSC263"] },
     { "code": "CSC263", "name": "Data Structures", "term": "Fall 2025", "track": "algorithms", "built": "heaps, hashing, graphs", "leads_to": ["CSC373"] },

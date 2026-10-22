@@ -1,4 +1,4 @@
-<img src="assets/hero.svg" alt="Mohan Li — AI / ML Engineer · CS @ UofT" width="100%">
+<img src="assets/hero.svg?v=ae338551" alt="Mohan Li — AI / ML Engineer · CS @ UofT" width="100%">
 
 <p align="center">
   <b>AI / ML engineer</b> studying computer science at the University of Toronto.<br>
@@ -12,22 +12,22 @@
 
 ## 🗺️ the course map
 
-<img src="assets/course-map.svg" alt="Course map. ML / AI: CSC311 Intro to Machine Learning (Fall 2025) leads to CSC485 Computational Linguistics (Fall 2026, now). Math & Stats: STA237 Probability & Statistics (Fall 2024) leads to CSC311 and CSC263. Algorithms: CSC263 Data Structures (Fall 2025) leads to CSC373 Algorithm Design (Winter 2026). Systems: CSC258 Computer Organization (Fall 2024) leads to CSC209 Systems Programming (Winter 2026)." width="100%">
+<img src="assets/course-map.svg?v=27443d7f" alt="Course map. ML / AI: CSC311 Intro to Machine Learning (Fall 2025) leads to CSC413 Deep Learning (Winter 2026), which leads to CSC485 Computational Linguistics (Fall 2026, now). Math & Stats: STA237 Probability & Statistics (Fall 2024) leads to CSC311 and CSC263. Algorithms: CSC263 Data Structures (Fall 2025) leads to CSC373 Algorithm Design (Winter 2026). Systems: CSC258 Computer Organization (Fall 2024) leads to CSC209 Systems Programming (Winter 2026)." width="100%">
 
 ## 🧪 the ml lab
 
-<a href="https://github.com/mlcompsci/FruitVegetablePredictor"><img src="assets/projects/produce.svg" alt="Produce Identifier: a self-bootstrapping MobileNetV3 image classifier served with FastAPI" width="49%"></a>
+<a href="https://github.com/mlcompsci/FruitVegetablePredictor"><img src="assets/projects/produce.svg?v=a24a549d" alt="Produce Identifier: a self-bootstrapping MobileNetV3 image classifier served with FastAPI" width="49%"></a>
 
 ## ⚙️ systems & tools
 
-<a href="https://github.com/mlcompsci/PipeFork"><img src="assets/projects/pipefork.svg" alt="PipeFork: a visual debugger for fork(), pipes and file descriptors" width="49%"></a>
-<a href="https://github.com/MichelleXiaoxuanWang/Dr.Mario"><img src="assets/projects/drmario.svg" alt="Dr. Mario rebuilt in MIPS assembly for CSC258" width="49%"></a>
+<a href="https://github.com/mlcompsci/PipeFork"><img src="assets/projects/pipefork.svg?v=8bf4e358" alt="PipeFork: a visual debugger for fork(), pipes and file descriptors" width="49%"></a>
+<a href="https://github.com/MichelleXiaoxuanWang/Dr.Mario"><img src="assets/projects/drmario.svg?v=a4ad475d" alt="Dr. Mario rebuilt in MIPS assembly for CSC258" width="49%"></a>
 
 ## 🧰 stack
 
-<img src="assets/stack.svg" alt="Stack. ML / AI: PyTorch, Hugging Face, scikit-learn, XGBoost, SHAP, ONNX Runtime, NumPy. Languages: Python, TypeScript, C, Go, Java, MIPS. Ship it: FastAPI, gRPC, Docker, PostgreSQL, Next.js, React." width="100%">
+<img src="assets/stack.svg?v=345c9899" alt="Stack. ML / AI: PyTorch, Hugging Face, scikit-learn, XGBoost, SHAP, ONNX Runtime, NumPy. Languages: Python, TypeScript, C, Go, Java, MIPS. Ship it: FastAPI, gRPC, Docker, PostgreSQL, Next.js, React." width="100%">
 
-<img src="assets/footer.svg" alt="visiting mlcompsci: 100% — thanks for stopping by" width="100%">
+<img src="assets/footer.svg?v=a5e8693c" alt="visiting mlcompsci: 100% — thanks for stopping by" width="100%">
 
 <!--
   Every image above is generated from data/profile.json.
