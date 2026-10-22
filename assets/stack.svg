@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="184" viewBox="0 0 900 184" role="img" aria-labelledby="title">
+<title id="title">Stack — ml / ai: PyTorch, Hugging Face, scikit-learn, XGBoost, SHAP, ONNX Runtime, NumPy; languages: Python, TypeScript, C, Go, Java, MIPS; ship it: FastAPI, gRPC, Docker, PostgreSQL, Next.js, React</title>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, Menlo, monospace}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090c17"/><stop offset="1" stop-color="#120e2c"/></linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r=".9" fill="#1c2346"/></pattern>
+  <clipPath id="frame"><rect width="900" height="184" rx="18"/></clipPath>
+  <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+  
+</defs>
+<g clip-path="url(#frame)">
+<rect width="900" height="184" fill="url(#bgGrad)"/>
+<rect width="900" height="184" fill="url(#dots)"/>
+<text class="mono" x="28" y="44" font-size="11" letter-spacing="2" fill="#a78bfa">ML / AI</text><g class="rise" style="animation-delay:0.00s">
+<rect x="150" y="26" width="83.1" height="28" rx="14" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.55"/>
+<circle cx="164" cy="40" r="3" fill="#a78bfa"/>
+<text class="sans" x="173" y="44.5" font-size="13" fill="#eceefb">PyTorch</text></g><g class="rise" style="animation-delay:0.06s">
+<rect x="243.1" y="26" width="118.2" height="28" rx="14" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.55"/>
+<circle cx="257.1" cy="40" r="3" fill="#a78bfa"/>
+<text class="sans" x="266.1" y="44.5" font-size="13" fill="#eceefb">Hugging Face</text></g><g class="rise" style="animation-delay:0.12s">
+<rect x="371.4" y="26" width="118.2" height="28" rx="14" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.55"/>
+<circle cx="385.4" cy="40" r="3" fill="#a78bfa"/>
+<text class="sans" x="394.4" y="44.5" font-size="13" fill="#eceefb">scikit-learn</text></g><g class="rise" style="animation-delay:0.18s">
+<rect x="499.6" y="26" width="83.1" height="28" rx="14" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.55"/>
+<circle cx="513.6" cy="40" r="3" fill="#a78bfa"/>
+<text class="sans" x="522.6" y="44.5" font-size="13" fill="#eceefb">XGBoost</text></g><g class="rise" style="animation-delay:0.24s">
+<rect x="592.8" y="26" width="62.1" height="28" rx="14" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.55"/>
+<circle cx="606.8" cy="40" r="3" fill="#a78bfa"/>
+<text class="sans" x="615.8" y="44.5" font-size="13" fill="#eceefb">SHAP</text></g><g class="rise" style="animation-delay:0.30s">
+<rect x="664.8" y="26" width="118.2" height="28" rx="14" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.55"/>
+<circle cx="678.8" cy="40" r="3" fill="#a78bfa"/>
+<text class="sans" x="687.8" y="44.5" font-size="13" fill="#eceefb">ONNX Runtime</text></g><g class="rise" style="animation-delay:0.36s">
+<rect x="793.1" y="26" width="69.1" height="28" rx="14" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.55"/>
+<circle cx="807.1" cy="40" r="3" fill="#a78bfa"/>
+<text class="sans" x="816.1" y="44.5" font-size="13" fill="#eceefb">NumPy</text></g><text class="mono" x="28" y="92" font-size="11" letter-spacing="2" fill="#38bdf8">LANGUAGES</text><g class="rise" style="animation-delay:0.15s">
+<rect x="150" y="74" width="76.1" height="28" rx="14" fill="#38bdf8" fill-opacity="0.07" stroke="#38bdf8" stroke-opacity="0.3"/>
+<circle cx="164" cy="88" r="3" fill="#38bdf8"/>
+<text class="sans" x="173" y="92.5" font-size="13" fill="#eceefb">Python</text></g><g class="rise" style="animation-delay:0.21s">
+<rect x="236.1" y="74" width="104.2" height="28" rx="14" fill="#38bdf8" fill-opacity="0.07" stroke="#38bdf8" stroke-opacity="0.3"/>
+<circle cx="250.1" cy="88" r="3" fill="#38bdf8"/>
+<text class="sans" x="259.1" y="92.5" font-size="13" fill="#eceefb">TypeScript</text></g><g class="rise" style="animation-delay:0.27s">
+<rect x="350.3" y="74" width="41" height="28" rx="14" fill="#38bdf8" fill-opacity="0.07" stroke="#38bdf8" stroke-opacity="0.3"/>
+<circle cx="364.3" cy="88" r="3" fill="#38bdf8"/>
+<text class="sans" x="373.3" y="92.5" font-size="13" fill="#eceefb">C</text></g><g class="rise" style="animation-delay:0.33s">
+<rect x="401.3" y="74" width="48" height="28" rx="14" fill="#38bdf8" fill-opacity="0.07" stroke="#38bdf8" stroke-opacity="0.3"/>
+<circle cx="415.3" cy="88" r="3" fill="#38bdf8"/>
+<text class="sans" x="424.3" y="92.5" font-size="13" fill="#eceefb">Go</text></g><g class="rise" style="animation-delay:0.39s">
+<rect x="459.4" y="74" width="62.1" height="28" rx="14" fill="#38bdf8" fill-opacity="0.07" stroke="#38bdf8" stroke-opacity="0.3"/>
+<circle cx="473.4" cy="88" r="3" fill="#38bdf8"/>
+<text class="sans" x="482.4" y="92.5" font-size="13" fill="#eceefb">Java</text></g><g class="rise" style="animation-delay:0.45s">
+<rect x="531.5" y="74" width="62.1" height="28" rx="14" fill="#38bdf8" fill-opacity="0.07" stroke="#38bdf8" stroke-opacity="0.3"/>
+<circle cx="545.5" cy="88" r="3" fill="#38bdf8"/>
+<text class="sans" x="554.5" y="92.5" font-size="13" fill="#eceefb">MIPS</text></g><text class="mono" x="28" y="140" font-size="11" letter-spacing="2" fill="#fbbf24">SHIP IT</text><g class="rise" style="animation-delay:0.30s">
+<rect x="150" y="122" width="83.1" height="28" rx="14" fill="#fbbf24" fill-opacity="0.07" stroke="#fbbf24" stroke-opacity="0.3"/>
+<circle cx="164" cy="136" r="3" fill="#fbbf24"/>
+<text class="sans" x="173" y="140.5" font-size="13" fill="#eceefb">FastAPI</text></g><g class="rise" style="animation-delay:0.36s">
+<rect x="243.1" y="122" width="62.1" height="28" rx="14" fill="#fbbf24" fill-opacity="0.07" stroke="#fbbf24" stroke-opacity="0.3"/>
+<circle cx="257.1" cy="136" r="3" fill="#fbbf24"/>
+<text class="sans" x="266.1" y="140.5" font-size="13" fill="#eceefb">gRPC</text></g><g class="rise" style="animation-delay:0.42s">
+<rect x="315.2" y="122" width="76.1" height="28" rx="14" fill="#fbbf24" fill-opacity="0.07" stroke="#fbbf24" stroke-opacity="0.3"/>
+<circle cx="329.2" cy="136" r="3" fill="#fbbf24"/>
+<text class="sans" x="338.2" y="140.5" font-size="13" fill="#eceefb">Docker</text></g><g class="rise" style="animation-delay:0.48s">
+<rect x="401.3" y="122" width="104.2" height="28" rx="14" fill="#fbbf24" fill-opacity="0.07" stroke="#fbbf24" stroke-opacity="0.3"/>
+<circle cx="415.3" cy="136" r="3" fill="#fbbf24"/>
+<text class="sans" x="424.3" y="140.5" font-size="13" fill="#eceefb">PostgreSQL</text></g><g class="rise" style="animation-delay:0.54s">
+<rect x="515.5" y="122" width="83.1" height="28" rx="14" fill="#fbbf24" fill-opacity="0.07" stroke="#fbbf24" stroke-opacity="0.3"/>
+<circle cx="529.5" cy="136" r="3" fill="#fbbf24"/>
+<text class="sans" x="538.5" y="140.5" font-size="13" fill="#eceefb">Next.js</text></g><g class="rise" style="animation-delay:0.60s">
+<rect x="608.7" y="122" width="69.1" height="28" rx="14" fill="#fbbf24" fill-opacity="0.07" stroke="#fbbf24" stroke-opacity="0.3"/>
+<circle cx="622.7" cy="136" r="3" fill="#fbbf24"/>
+<text class="sans" x="631.7" y="140.5" font-size="13" fill="#eceefb">React</text></g>
+</g>
+<rect x=".5" y=".5" width="899" height="183" rx="17.5" fill="none" stroke="#232b4d"/>
+</svg>

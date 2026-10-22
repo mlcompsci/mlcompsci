@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="190" viewBox="0 0 440 190" role="img" aria-labelledby="title">
+<title id="title">Intentional Hanabi — Reproduced “An Intentional AI for Hanabi” (CIG ’17): mental-state tracking, intention-based hints, self-play.</title>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, Menlo, monospace}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090c17"/><stop offset="1" stop-color="#120e2c"/></linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r=".9" fill="#1c2346"/></pattern>
+  <clipPath id="frame"><rect width="440" height="190" rx="18"/></clipPath>
+  <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+  
+</defs>
+<g clip-path="url(#frame)">
+<rect width="440" height="190" fill="url(#bgGrad)"/>
+<rect width="440" height="190" fill="url(#dots)"/>
+<radialGradient id="cardGlow"><stop offset="0" stop-color="#f472b6" stop-opacity=".22"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+<circle cx="374" cy="64" r="150" fill="url(#cardGlow)"/>
+<path d="M24 0H416" stroke="#f472b6" stroke-width="3" opacity=".8"/>
+<text class="mono" x="24" y="36" font-size="10.5" letter-spacing="1.6" fill="#f472b6">GAME AI · PAPER REPRO</text>
+<text class="sans" x="24" y="66" font-size="22" font-weight="800" fill="#eceefb">Intentional Hanabi</text>
+<text class="sans" x="24" y="92" font-size="12.5" fill="#a7aed0">Reproduced “An Intentional AI for Hanabi”</text>
+<text class="sans" x="24" y="110" font-size="12.5" fill="#a7aed0">(CIG ’17): mental-state tracking,</text>
+<text class="sans" x="24" y="128" font-size="12.5" fill="#a7aed0">intention-based hints, self-play.</text>
+<g transform="rotate(-28 373 140)"><animateTransform attributeName="transform" type="rotate" values="-28 373 140;-32.2 373 140;-28 373 140" dur="4s" repeatCount="indefinite"/>
+<rect x="361" y="58" width="24" height="36" rx="4" fill="#f87171" stroke="#0b0f1f" stroke-width="1.5"/>
+<text class="mono" x="373" y="81" font-size="13" font-weight="800" fill="#0b0f1f" text-anchor="middle">1</text></g><g transform="rotate(-14 373 140)"><animateTransform attributeName="transform" type="rotate" values="-14 373 140;-16.1 373 140;-14 373 140" dur="4s" repeatCount="indefinite"/>
+<rect x="361" y="58" width="24" height="36" rx="4" fill="#facc15" stroke="#0b0f1f" stroke-width="1.5"/>
+<text class="mono" x="373" y="81" font-size="13" font-weight="800" fill="#0b0f1f" text-anchor="middle">2</text></g><g transform="rotate(0 373 140)"><animateTransform attributeName="transform" type="rotate" values="0 373 140;0 373 140;0 373 140" dur="4s" repeatCount="indefinite"/>
+<rect x="361" y="58" width="24" height="36" rx="4" fill="#4ade80" stroke="#0b0f1f" stroke-width="1.5"/>
+<text class="mono" x="373" y="81" font-size="13" font-weight="800" fill="#0b0f1f" text-anchor="middle">3</text></g><g transform="rotate(14 373 140)"><animateTransform attributeName="transform" type="rotate" values="14 373 140;16.1 373 140;14 373 140" dur="4s" repeatCount="indefinite"/>
+<rect x="361" y="58" width="24" height="36" rx="4" fill="#60a5fa" stroke="#0b0f1f" stroke-width="1.5"/>
+<text class="mono" x="373" y="81" font-size="13" font-weight="800" fill="#0b0f1f" text-anchor="middle">4</text></g><g transform="rotate(28 373 140)"><animateTransform attributeName="transform" type="rotate" values="28 373 140;32.2 373 140;28 373 140" dur="4s" repeatCount="indefinite"/>
+<rect x="361" y="58" width="24" height="36" rx="4" fill="#e5e7eb" stroke="#0b0f1f" stroke-width="1.5"/>
+<text class="mono" x="373" y="81" font-size="13" font-weight="800" fill="#0b0f1f" text-anchor="middle">5</text></g><rect x="24" y="150" width="57.8" height="21" rx="10.5" fill="#f472b6" fill-opacity=".1" stroke="#f472b6" stroke-opacity=".4"/>
+<text class="mono" x="52.9" y="164.28" font-size="10.5" fill="#a7aed0" text-anchor="middle">Python</text><rect x="87.8" y="150" width="64.1" height="21" rx="10.5" fill="#f472b6" fill-opacity=".1" stroke="#f472b6" stroke-opacity=".4"/>
+<text class="mono" x="119.9" y="164.28" font-size="10.5" fill="#a7aed0" text-anchor="middle">game AI</text><rect x="157.9" y="150" width="76.7" height="21" rx="10.5" fill="#f472b6" fill-opacity=".1" stroke="#f472b6" stroke-opacity=".4"/>
+<text class="mono" x="196.2" y="164.28" font-size="10.5" fill="#a7aed0" text-anchor="middle">self-play</text><text class="mono" x="416" y="164.5" font-size="10.5" fill="#6c7499" text-anchor="end">↗ my repo</text>
+</g>
+<rect x=".5" y=".5" width="439" height="189" rx="17.5" fill="none" stroke="#232b4d"/>
+</svg>

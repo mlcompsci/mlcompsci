@@ -1,0 +1,87 @@
+{
+  "name": "Mohan Li",
+  "handle": "mlcompsci",
+  "hero": {
+    "role": "AI / ML ENGINEER",
+    "school": "CS @ UofT",
+    "phrases": [
+      "training models that actually ship",
+      "deep learning · NLP · LLM agents",
+      "from gradients to gRPC: model → prod",
+      "currently: neural parsers + a startup"
+    ],
+    "tags": ["deep learning", "NLP", "LLM agents", "inference infra"],
+    "network": { "inputs": ["data", "math", "code"], "outputs": ["models", "shipped"] }
+  },
+
+  "terms": ["Fall 2024", "Fall 2025", "Winter 2026", "Fall 2026"],
+  "current_term": "Fall 2026",
+  "tracks": [
+    { "id": "ml", "name": "ML / AI", "color": "#a78bfa" },
+    { "id": "math", "name": "Math & Stats", "color": "#34d399" },
+    { "id": "systems", "name": "Systems", "color": "#fbbf24" },
+    { "id": "software", "name": "Software", "color": "#38bdf8" }
+  ],
+  "courses": [
+    { "code": "CSC311", "name": "Intro to Machine Learning", "term": "Fall 2025", "track": "ml", "built": "NN + naive Bayes clf", "leads_to": ["CSC485"] },
+    { "code": "CSC485", "name": "Computational Linguistics", "term": "Fall 2026", "track": "ml", "built": "neural dep. parsers" },
+    { "code": "STA237", "name": "Probability & Statistics", "term": "Fall 2024", "track": "math", "built": "the math under the ML", "leads_to": ["CSC311"] },
+    { "code": "CSC258", "name": "Computer Organization", "term": "Fall 2024", "track": "systems", "built": "Dr. Mario in MIPS asm", "leads_to": ["CSC209"] },
+    { "code": "CSC209", "name": "Systems Programming", "term": "Winter 2026", "track": "systems", "built": "fork()+pipe() workers" },
+    { "code": "CSC207", "name": "Software Design", "term": "Fall 2024", "track": "software", "built": "Pentagon-113 stock app", "leads_to": ["CSC209", "DCSIL"] },
+    { "code": "DCSIL", "name": "DCS Innovation Lab", "term": "Fall 2026", "track": "software", "built": "startup MVP · Capybara" }
+  ],
+
+  "projects": [
+    {
+      "id": "hanabi", "section": "ml", "art": "hanabi", "color": "#f472b6",
+      "title": "Intentional Hanabi", "tag": "GAME AI · PAPER REPRO",
+      "desc": "Reproduced “An Intentional AI for Hanabi” (CIG ’17): mental-state tracking, intention-based hints, self-play.",
+      "tech": ["Python", "game AI", "self-play"],
+      "repo": "mlcompsci/Hanabi", "role": "my repo"
+    },
+    {
+      "id": "produce", "section": "ml", "art": "classifier", "color": "#34d399",
+      "title": "Produce Identifier", "tag": "COMPUTER VISION",
+      "desc": "Image classifier that fetches its own data, fine-tunes MobileNetV3 and serves predictions over FastAPI.",
+      "tech": ["PyTorch", "MobileNetV3", "FastAPI"],
+      "repo": "mlcompsci/FruitVegetablePredictor", "role": "my repo"
+    },
+    {
+      "id": "prosody", "section": "ml", "art": "waveform", "color": "#a78bfa",
+      "title": "Prosody Emotion Classifier", "tag": "SPEECH · AURA",
+      "desc": "Speech emotion recognition with HuBERT on RAVDESS and CREMA-D, mapping 7 emotions onto valence, arousal and dominance.",
+      "tech": ["HuBERT", "Transformers", "PyTorch"],
+      "repo": "stefan-dam/Prosody-Emotion-Classifier", "role": "contributor"
+    },
+    {
+      "id": "persona", "section": "ml", "art": "agent", "color": "#38bdf8",
+      "title": "PersonaAgent", "tag": "LLM AGENTS",
+      "desc": "Autonomous browser agents that test web apps through the eyes of user personas. Can a real user actually reach their goal?",
+      "tech": ["agents", "TypeScript", "FastAPI"],
+      "repo": "nikolassantoso/PersonaAgents", "role": "contributor"
+    },
+    {
+      "id": "pipefork", "section": "systems", "art": "pipes", "color": "#fbbf24",
+      "title": "PipeFork", "tag": "SYSTEMS · TEACHING TOOL",
+      "desc": "Visual debugger for fork(), pipes and file descriptors: a C-subset compiler + simulator you can step backwards.",
+      "tech": ["TypeScript", "compilers", "Unix"],
+      "repo": "mlcompsci/PipeFork", "role": "my repo"
+    },
+    {
+      "id": "drmario", "section": "systems", "art": "pills", "color": "#f87171",
+      "title": "Dr. Mario", "tag": "CSC258 · MIPS ASSEMBLY",
+      "desc": "The classic puzzle game rebuilt in pure MIPS assembly: falling capsules, colour matching and virus clearing.",
+      "tech": ["MIPS", "assembly", "CSC258"],
+      "repo": "MichelleXiaoxuanWang/Dr.Mario", "role": "contributor"
+    }
+  ],
+
+  "stack": [
+    { "label": "ml / ai", "color": "#a78bfa", "items": ["PyTorch", "Hugging Face", "scikit-learn", "XGBoost", "SHAP", "ONNX Runtime", "NumPy"] },
+    { "label": "languages", "color": "#38bdf8", "items": ["Python", "TypeScript", "C", "Go", "Java", "MIPS"] },
+    { "label": "ship it", "color": "#fbbf24", "items": ["FastAPI", "gRPC", "Docker", "PostgreSQL", "Next.js", "React"] }
+  ],
+
+  "footer": { "label": "visiting mlcompsci", "sections": 6, "message": "thanks for stopping by ✦" }
+}

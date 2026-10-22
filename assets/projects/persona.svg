@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="190" viewBox="0 0 440 190" role="img" aria-labelledby="title">
+<title id="title">PersonaAgent — Autonomous browser agents that test web apps through the eyes of user personas. Can a real user actually reach their goal?</title>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, Menlo, monospace}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090c17"/><stop offset="1" stop-color="#120e2c"/></linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r=".9" fill="#1c2346"/></pattern>
+  <clipPath id="frame"><rect width="440" height="190" rx="18"/></clipPath>
+  <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+  
+</defs>
+<g clip-path="url(#frame)">
+<rect width="440" height="190" fill="url(#bgGrad)"/>
+<rect width="440" height="190" fill="url(#dots)"/>
+<radialGradient id="cardGlow"><stop offset="0" stop-color="#38bdf8" stop-opacity=".22"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+<circle cx="374" cy="64" r="150" fill="url(#cardGlow)"/>
+<path d="M24 0H416" stroke="#38bdf8" stroke-width="3" opacity=".8"/>
+<text class="mono" x="24" y="36" font-size="10.5" letter-spacing="1.6" fill="#38bdf8">LLM AGENTS</text>
+<text class="sans" x="24" y="66" font-size="22" font-weight="800" fill="#eceefb">PersonaAgent</text>
+<text class="sans" x="24" y="92" font-size="12.5" fill="#a7aed0">Autonomous browser agents that test web</text>
+<text class="sans" x="24" y="110" font-size="12.5" fill="#a7aed0">apps through the eyes of user personas. Can</text>
+<text class="sans" x="24" y="128" font-size="12.5" fill="#a7aed0">a real user actually reach their goal?</text>
+<rect x="330" y="28" width="86" height="64" rx="7" fill="#0c1124" stroke="#38bdf8" stroke-opacity=".5"/>
+<path d="M330 40H416" stroke="#38bdf8" stroke-opacity=".35"/>
+<circle cx="337" cy="34" r="1.8" fill="#ff5f57"/><circle cx="343" cy="34" r="1.8" fill="#febc2e"/><circle cx="349" cy="34" r="1.8" fill="#28c840"/>
+<rect x="338" y="48" width="44" height="5" rx="2.5" fill="#6c7499" opacity=".5"/>
+<rect x="338" y="58" width="30" height="11" rx="3" fill="#38bdf8" fill-opacity=".3"/>
+<rect x="374" y="74" width="34" height="11" rx="3" fill="#38bdf8" fill-opacity=".3"/>
+<g><animateTransform attributeName="transform" type="translate" values="350 62;390 78;390 78;350 62;350 62" keyTimes="0;.35;.5;.85;1" dur="4s" repeatCount="indefinite"/>
+<circle r="7" fill="#38bdf8" opacity="0"><animate attributeName="opacity" values="0;0;.5;0;0" keyTimes="0;.34;.38;.5;1" dur="4s" repeatCount="indefinite"/></circle>
+<path d="M0 0L0 12L3.4 9L5.8 14L7.8 13.1L5.4 8.2L9.6 8.2Z" fill="#fff" stroke="#0b0f1f" stroke-width=".8"/></g>
+<circle cx="355" cy="110" r="6.5" fill="#f472b6" fill-opacity=".25" stroke="#f472b6"><animate attributeName="fill-opacity" values=".25;.9;.25;.25" keyTimes="0;.15;.33;1" dur="6s" begin="0s" repeatCount="indefinite"/></circle><circle cx="373" cy="110" r="6.5" fill="#a78bfa" fill-opacity=".25" stroke="#a78bfa"><animate attributeName="fill-opacity" values=".25;.9;.25;.25" keyTimes="0;.15;.33;1" dur="6s" begin="2s" repeatCount="indefinite"/></circle><circle cx="391" cy="110" r="6.5" fill="#34d399" fill-opacity=".25" stroke="#34d399"><animate attributeName="fill-opacity" values=".25;.9;.25;.25" keyTimes="0;.15;.33;1" dur="6s" begin="4s" repeatCount="indefinite"/></circle><rect x="24" y="150" width="57.8" height="21" rx="10.5" fill="#38bdf8" fill-opacity=".1" stroke="#38bdf8" stroke-opacity=".4"/>
+<text class="mono" x="52.9" y="164.28" font-size="10.5" fill="#a7aed0" text-anchor="middle">agents</text><rect x="87.8" y="150" width="83" height="21" rx="10.5" fill="#38bdf8" fill-opacity=".1" stroke="#38bdf8" stroke-opacity=".4"/>
+<text class="mono" x="129.3" y="164.28" font-size="10.5" fill="#a7aed0" text-anchor="middle">TypeScript</text><rect x="176.8" y="150" width="64.1" height="21" rx="10.5" fill="#38bdf8" fill-opacity=".1" stroke="#38bdf8" stroke-opacity=".4"/>
+<text class="mono" x="208.9" y="164.28" font-size="10.5" fill="#a7aed0" text-anchor="middle">FastAPI</text><text class="mono" x="416" y="164.5" font-size="10.5" fill="#6c7499" text-anchor="end">↗ contributor</text>
+</g>
+<rect x=".5" y=".5" width="439" height="189" rx="17.5" fill="none" stroke="#232b4d"/>
+</svg>
