@@ -2,7 +2,7 @@
 // Generates every SVG in assets/ from data/profile.json.
 // Usage: node scripts/build.mjs   (no dependencies, Node 18+)
 import { createHash } from 'node:crypto';
-import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -407,13 +407,21 @@ function footer() {
 
 // ---------------------------------------------------------------- write
 
+// Each SVG is written as name.<content hash>.svg. GitHub caches README images
+// for 5 minutes by URL (and its raw redirect drops query strings), so a changed
+// image needs a new file name to show up immediately.
+const ASSETS = join(ROOT, 'assets');
 const versions = {};
+const written = new Set();
 const out = (rel, content) => {
-  const file = join(ROOT, 'assets', rel);
+  const hash = createHash('sha1').update(content).digest('hex').slice(0, 8);
+  const hashed = rel.replace(/\.svg$/, `.${hash}.svg`);
+  const file = join(ASSETS, hashed);
   mkdirSync(dirname(file), { recursive: true });
   writeFileSync(file, content);
-  versions[`assets/${rel}`] = createHash('sha1').update(content).digest('hex').slice(0, 8);
-  console.log(`✓ assets/${rel}`);
+  versions[`assets/${rel}`] = `assets/${hashed}`;
+  written.add(file);
+  console.log(`✓ assets/${hashed}`);
 };
 out('hero.svg', hero());
 out('course-map.svg', courseMap());
@@ -421,12 +429,15 @@ for (const p of P.projects) out(`projects/${p.id}.svg`, projectCard(p));
 out('stack.svg', stack());
 out('footer.svg', footer());
 
-// GitHub lets browsers cache README images for 5 minutes, so stamp each
-// reference with its content hash: a changed image gets a new URL.
+// Drop SVGs from earlier builds, then point README.md at this build's files.
+for (const rel of readdirSync(ASSETS, { recursive: true })) {
+  const file = join(ASSETS, rel);
+  if (file.endsWith('.svg') && !written.has(file)) rmSync(file);
+}
 const readmeFile = join(ROOT, 'README.md');
 const readme = readFileSync(readmeFile, 'utf8');
-const stamped = readme.replace(/(assets\/[\w./-]+\.svg)(\?v=[0-9a-f]+)?/g, (m, path) => (versions[path] ? `${path}?v=${versions[path]}` : m));
+const stamped = readme.replace(/assets\/([\w/-]+?)(?:\.[0-9a-f]{8})?\.svg(?:\?v=[0-9a-f]+)?/g, (m, name) => versions[`assets/${name}.svg`] ?? m);
 if (stamped !== readme) {
   writeFileSync(readmeFile, stamped);
-  console.log('✓ README.md image versions');
+  console.log('✓ README.md image links');
 }
