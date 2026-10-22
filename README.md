@@ -10,6 +10,10 @@
 - 🧠 **CSC485**: training neural dependency parsers in PyTorch
 - 🛰️ **on the side**: model serving, inference routing, and LLM agents
 
+## 📈 the training log
+
+<img src="assets/contributions.a6b5453b.svg" alt="Contribution skyline: my GitHub contributions over the last year as a 3D city of towers, one per day, with totals, best day and streaks." width="100%">
+
 ## 🗺️ the course map
 
 <img src="assets/course-map.88a5d835.svg" alt="Course map. ML / AI: CSC311 Intro to Machine Learning (Fall 2025) leads to CSC413 Deep Learning (Winter 2026), which leads to CSC485 Computational Linguistics (Fall 2026, now). Math & Stats: STA237 Probability & Statistics (Fall 2024) leads to CSC311 and CSC263. Algorithms: CSC263 Data Structures (Fall 2025) leads to CSC373 Algorithm Design (Winter 2026). Systems: CSC258 Computer Organization (Fall 2024) leads to CSC209 Systems Programming (Winter 2026)." width="100%">
@@ -26,10 +30,12 @@
 
 <img src="assets/stack.345c9899.svg" alt="Stack. ML / AI: PyTorch, Hugging Face, scikit-learn, XGBoost, SHAP, ONNX Runtime, NumPy. Languages: Python, TypeScript, C, Go, Java, MIPS. Ship it: FastAPI, gRPC, Docker, PostgreSQL, Next.js, React." width="100%">
 
-<img src="assets/footer.a5e8693c.svg" alt="visiting mlcompsci: 100% — thanks for stopping by" width="100%">
+<img src="assets/footer.d0587bf5.svg" alt="visiting mlcompsci: 100% — thanks for stopping by" width="100%">
 
 <!--
   Every image above is generated from data/profile.json.
   Edit that file (add a course, swap a project) and push: the workflow in
   .github/workflows/build.yml re-renders assets/. Locally: node scripts/build.mjs
+  The training log comes from data/contributions.json, which the same workflow
+  refreshes every day with scripts/fetch-contributions.mjs (needs GITHUB_TOKEN).
 -->

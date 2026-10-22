@@ -56,5 +56,5 @@
     { "label": "ship it", "color": "#fbbf24", "items": ["FastAPI", "gRPC", "Docker", "PostgreSQL", "Next.js", "React"] }
   ],
 
-  "footer": { "label": "visiting mlcompsci", "sections": 6, "message": "thanks for stopping by ✦" }
+  "footer": { "label": "visiting mlcompsci", "sections": 7, "message": "thanks for stopping by ✦" }
 }

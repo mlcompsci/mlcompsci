@@ -4,6 +4,8 @@ on:
   push:
     branches: [main]
     paths: ['data/**', 'scripts/**']
+  schedule:
+    - cron: '17 6 * * *'  # daily, so the contribution skyline stays current
   workflow_dispatch:
 
 permissions:
@@ -17,12 +19,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Snapshot the contribution calendar
+        run: node scripts/fetch-contributions.mjs
+        # A GitHub API hiccup shouldn't block re-rendering the rest from the last snapshot.
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - run: node scripts/build.mjs
       - name: Commit re-rendered assets
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets README.md
+          git add assets README.md data/contributions.json
           if git diff --cached --quiet; then
             echo "assets already up to date"
           else

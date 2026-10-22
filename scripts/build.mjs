@@ -2,7 +2,7 @@
 // Generates every SVG in assets/ from data/profile.json.
 // Usage: node scripts/build.mjs   (no dependencies, Node 18+)
 import { createHash } from 'node:crypto';
-import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, readdirSync, rmSync, existsSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -81,6 +81,14 @@ function chip(x, y, label, color, { size = 11, h = 22, mono = true } = {}) {
     svg: `<rect x="${r1(x)}" y="${y}" width="${r1(w)}" height="${h}" rx="${h / 2}" fill="${color}" fill-opacity=".1" stroke="${color}" stroke-opacity=".4"/>
 <text class="${mono ? 'mono' : 'sans'}" x="${r1(x + w / 2)}" y="${y + h / 2 + size * 0.36}" font-size="${size}" fill="${C.sub}" text-anchor="middle">${esc(label)}</text>`,
   };
+}
+
+// macOS-style window bar across the top of the wide panels.
+function chrome(W, title, right) {
+  return `<rect width="${W}" height="46" fill="#0c1022"/><path d="M0 46H${W}" stroke="${C.edge}"/>
+<circle cx="24" cy="23" r="5.5" fill="#ff5f57"/><circle cx="43" cy="23" r="5.5" fill="#febc2e"/><circle cx="62" cy="23" r="5.5" fill="#28c840"/>
+<text class="mono" x="${W / 2}" y="27.5" font-size="12.5" fill="${C.sub}" text-anchor="middle">${esc(title)}</text>
+<text class="mono" x="${W - 22}" y="27.5" font-size="11" fill="${C.muted}" text-anchor="end">${esc(right)}</text>`;
 }
 
 // ---------------------------------------------------------------- hero
@@ -203,11 +211,7 @@ function courseMap() {
   }
   let defs = '', body = '';
 
-  // window chrome
-  body += `<rect width="${W}" height="46" fill="#0c1022"/><path d="M0 46H${W}" stroke="${C.edge}"/>
-<circle cx="24" cy="23" r="5.5" fill="#ff5f57"/><circle cx="43" cy="23" r="5.5" fill="#febc2e"/><circle cx="62" cy="23" r="5.5" fill="#28c840"/>
-<text class="mono" x="${W / 2}" y="27.5" font-size="12.5" fill="${C.sub}" text-anchor="middle">~/uoft/cs — the transit map of my degree</text>
-<text class="mono" x="${W - 22}" y="27.5" font-size="11" fill="${C.muted}" text-anchor="end">${courses.length} stops · ${tracks.length} lines</text>`;
+  body += chrome(W, '~/uoft/cs — the transit map of my degree', `${courses.length} stops · ${tracks.length} lines`);
 
   // term columns
   terms.forEach((term, i) => {
@@ -356,6 +360,117 @@ ${ART[p.art](p.color)}`;
   return svg(W, H, `${p.title} — ${p.desc}`, body);
 }
 
+// ---------------------------------------------------------------- contributions
+
+const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+const fmtDay = (d) => `${MON[d.getUTCMonth()]} ${d.getUTCDate()}`;
+
+// The contribution calendar as a 3D skyline: one tower per day, weeks run left
+// to right and weekdays recede from Saturday (front row) to Sunday (back row).
+function contributions(D) {
+  const W = 900, H = 420;
+  const start = new Date(`${D.start}T00:00:00Z`);
+  const days = D.counts.map((count, i) => {
+    const date = new Date(start.getTime() + i * 864e5);
+    return { date, count, week: Math.floor((i + start.getUTCDay()) / 7), row: 6 - date.getUTCDay() };
+  });
+
+  const total = D.counts.reduce((a, b) => a + b, 0);
+  const active = days.filter((d) => d.count).length;
+  const best = days.reduce((a, b) => (b.count > a.count ? b : a));
+  let run = 0, longest = 0;
+  for (const d of days) { run = d.count ? run + 1 : 0; longest = Math.max(longest, run); }
+  // Today isn't over yet, so an empty today doesn't break the current streak.
+  let current = 0;
+  for (let i = days.length - (days.at(-1).count ? 1 : 2); i >= 0 && days[i].count; i--) current++;
+
+  let defs = '', body = chrome(W, '~/activity — git log --since="1 year ago" | skyline', `updated ${fmtDay(new Date(`${D.fetched}T00:00:00Z`))}`);
+
+  // --- stats strip
+  const stats = [
+    [total, 'contributions', 'in the last year'],
+    [active, 'active days', `out of ${days.length}`],
+    [best.count, 'best day', `on ${fmtDay(best.date)}`],
+    [longest, 'longest streak', 'days in a row'],
+    [current, 'current streak', current ? 'days and counting' : 'next commit starts one'],
+  ];
+  defs += `<linearGradient id="statGrad" x1="0" x2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="${C.pink}"/></linearGradient>`;
+  const colW = (W - 56) / stats.length;
+  stats.forEach(([value, label, sub], i) => {
+    const x = 28 + i * colW + (i ? 18 : 4);
+    if (i) body += `<path d="M${r1(28 + i * colW)} 72V132" stroke="${C.edge}"/>`;
+    body += `<g class="rise" style="animation-delay:${(0.1 + i * 0.1).toFixed(2)}s">
+<text class="mono" x="${r1(x)}" y="80" font-size="10" letter-spacing="1.5" fill="${C.muted}">${esc(label.toUpperCase())}</text>
+<text class="sans" x="${r1(x)}" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">${value}</text>
+<text class="mono" x="${r1(x)}" y="132" font-size="10.5" fill="${C.sub}">${esc(sub)}</text></g>`;
+  });
+
+  // --- skyline geometry: tower width/pitch, per-row depth offset, top-face depth
+  const X0 = 44, Y0 = 340, PX = 14.6, TW = 11.6, ROW = 6.4, DEP = 5, MAXH = 118;
+  const towerH = (c) => (c ? r1(4 + (MAXH - 4) * (c / Math.max(1, best.count)) ** 0.55) : 0);
+  const base = (d) => [r1(X0 + d.week * PX + d.row * ROW), r1(Y0 - d.row * ROW)];
+  const topFace = (x, y) => `${x},${y} ${r1(x + TW)},${y} ${r1(x + TW + DEP)},${r1(y - DEP)} ${r1(x + DEP)},${r1(y - DEP)}`;
+
+  // One vertical ramp shared by every tower, so colour tracks height: violet → pink → amber.
+  const yTop = r1(Y0 - 6 * ROW - MAXH);
+  const ramp = (id, stops) => `<linearGradient id="${id}" gradientUnits="userSpaceOnUse" x1="0" y1="${Y0}" x2="0" y2="${yTop}">${stops.map(([o, c]) => `<stop offset="${o}" stop-color="${c}"/>`).join('')}</linearGradient>`;
+  defs += ramp('skyFront', [[0, '#4c3aa8'], [0.35, C.violet], [0.75, C.pink], [1, C.amber]])
+    + ramp('skySide', [[0, '#2a2063'], [0.35, '#6d55b8'], [0.75, '#a8487f'], [1, '#b0801a']])
+    + ramp('skyTop', [[0, '#7c6bd6'], [0.35, '#d3c4ff'], [0.75, '#fbb6dc'], [1, '#fde68a']])
+    + `<radialGradient id="peakGlow"><stop offset="0" stop-color="${C.pink}" stop-opacity=".3"/><stop offset="1" stop-color="${C.pink}" stop-opacity="0"/></radialGradient>
+<linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>`;
+
+  const [bx, by] = base(best), bh = towerH(best.count);
+  const peak = { x: r1(bx + (TW + DEP) / 2), y: r1(by - bh - DEP / 2) };
+  body += `<circle cx="${peak.x}" cy="${peak.y}" r="90" fill="url(#peakGlow)"/>`;
+
+  // A light band sweeps the skyline like a forward pass; each tower's cap flashes as it passes.
+  const SCAN = 7, SCAN_BEGIN = 1.4, scanFrom = X0 - 40, scanTo = X0 + days.at(-1).week * PX + TW + 6 * ROW + DEP + 40;
+  // Painter's order: back row first, then left to right, so nearer towers cover farther ones.
+  const ordered = [...days].sort((a, b) => b.row - a.row || a.week - b.week);
+  for (const d of ordered) {
+    const [x, y] = base(d), h = towerH(d.count);
+    if (!h) { body += `<polygon points="${topFace(x, y)}" fill="#151b38" stroke="#1f2648" stroke-width=".6"/>`; continue; }
+    const hit = SCAN_BEGIN + ((x + (TW + DEP) / 2 - scanFrom) / (scanTo - scanFrom)) * SCAN;
+    body += `<g class="grow" style="transform-origin:${x}px ${y}px;animation-delay:${(0.3 + d.week * 0.018).toFixed(2)}s">
+<rect x="${x}" y="${r1(y - h)}" width="${TW}" height="${h}" fill="url(#skyFront)"/>
+<polygon points="${r1(x + TW)},${y} ${r1(x + TW + DEP)},${r1(y - DEP)} ${r1(x + TW + DEP)},${r1(y - h - DEP)} ${r1(x + TW)},${r1(y - h)}" fill="url(#skySide)"/>
+<polygon points="${topFace(x, r1(y - h))}" fill="url(#skyTop)"/>
+<polygon class="flash" points="${topFace(x, r1(y - h))}" fill="#fff" opacity="0" style="animation-delay:${hit.toFixed(2)}s"/></g>`;
+  }
+  body += `<rect x="${scanFrom - 30}" y="${yTop - 10}" width="60" height="${r1(Y0 + 8 - yTop + 10)}" fill="url(#scan)" opacity="0">
+<animate attributeName="x" values="${scanFrom - 30};${scanTo - 30}" dur="${SCAN}s" begin="${SCAN_BEGIN}s" repeatCount="indefinite"/>
+<set attributeName="opacity" to="1" begin="${SCAN_BEGIN}s"/></rect>`;
+
+  // --- the best day, flagged
+  const flagEnd = peak.x > W - 120;
+  body += `<path d="M${peak.x} ${r1(peak.y - 6)}V${r1(peak.y - 20)}" stroke="${C.pink}" stroke-opacity=".7"/>
+<circle class="pulse" cx="${peak.x}" cy="${r1(peak.y - 2)}" r="3" fill="${C.pink}"/>
+<text class="mono" x="${flagEnd ? r1(peak.x + 8) : peak.x}" y="${r1(peak.y - 26)}" font-size="10.5" font-weight="700" fill="${C.pink}" text-anchor="${flagEnd ? 'end' : 'middle'}">▲ ${best.count} on ${fmtDay(best.date)}</text>`;
+
+  // --- month labels along the front edge
+  for (const d of days) {
+    if (d.date.getUTCDate() !== 1) continue;
+    const m = d.date.getUTCMonth();
+    body += `<text class="mono" x="${r1(X0 + d.week * PX)}" y="${Y0 + 20}" font-size="10" fill="${m ? C.muted : C.sub}">${MON[m]}${m ? '' : ` ’${String(d.date.getUTCFullYear()).slice(2)}`}</text>`;
+  }
+
+  // --- legend
+  const ly = H - 30;
+  body += `<text class="mono" x="28" y="${ly + 9}" font-size="10.5" fill="${C.muted}">each tower = one day · height = contributions · Sun at the back, Sat in front</text>
+<text class="mono" x="${W - 136}" y="${ly + 9}" font-size="10.5" fill="${C.muted}" text-anchor="end">less</text>
+${['#151b38', '#4c3aa8', C.violet, C.pink, C.amber].map((col, i) => `<rect x="${W - 128 + i * 15}" y="${ly}" width="11" height="11" rx="2.5" fill="${col}" stroke="#1f2648" stroke-width=".6"/>`).join('')}
+<text class="mono" x="${W - 28}" y="${ly + 9}" font-size="10.5" fill="${C.muted}" text-anchor="end">more</text>`;
+
+  const css = `
+.grow{animation:grow .9s cubic-bezier(.2,.7,.2,1) both}
+@keyframes grow{from{transform:scaleY(0)}to{transform:none}}
+.flash{animation:flash ${SCAN}s linear infinite}
+@keyframes flash{0%{opacity:.6}12%,100%{opacity:0}}`;
+  const title = `Contribution skyline — ${total} contributions in the last year, ${active} active days, best day ${best.count} on ${fmtDay(best.date)}, longest streak ${longest} days, current streak ${current} days`;
+  return svg(W, H, title, body, css, defs);
+}
+
 // ---------------------------------------------------------------- stack
 
 function stack() {
@@ -418,6 +533,9 @@ const out = (rel, content) => {
 out('hero.svg', hero());
 out('course-map.svg', courseMap());
 for (const p of P.projects) out(`projects/${p.id}.svg`, projectCard(p));
+const contribFile = join(ROOT, 'data', 'contributions.json');
+if (existsSync(contribFile)) out('contributions.svg', contributions(JSON.parse(readFileSync(contribFile, 'utf8'))));
+else console.warn('! data/contributions.json is missing: run scripts/fetch-contributions.mjs first');
 out('stack.svg', stack());
 out('footer.svg', footer());
 
