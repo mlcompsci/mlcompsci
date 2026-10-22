@@ -12,7 +12,7 @@
 
 ## 🗺️ the course map
 
-<img src="assets/course-map.27443d7f.svg" alt="Course map. ML / AI: CSC311 Intro to Machine Learning (Fall 2025) leads to CSC413 Deep Learning (Winter 2026), which leads to CSC485 Computational Linguistics (Fall 2026, now). Math & Stats: STA237 Probability & Statistics (Fall 2024) leads to CSC311 and CSC263. Algorithms: CSC263 Data Structures (Fall 2025) leads to CSC373 Algorithm Design (Winter 2026). Systems: CSC258 Computer Organization (Fall 2024) leads to CSC209 Systems Programming (Winter 2026)." width="100%">
+<img src="assets/course-map.88a5d835.svg" alt="Course map. ML / AI: CSC311 Intro to Machine Learning (Fall 2025) leads to CSC413 Deep Learning (Winter 2026), which leads to CSC485 Computational Linguistics (Fall 2026, now). Math & Stats: STA237 Probability & Statistics (Fall 2024) leads to CSC311 and CSC263. Algorithms: CSC263 Data Structures (Fall 2025) leads to CSC373 Algorithm Design (Winter 2026). Systems: CSC258 Computer Organization (Fall 2024) leads to CSC209 Systems Programming (Winter 2026)." width="100%">
 
 ## 🧪 the ml lab
 
@@ -20,8 +20,7 @@
 
 ## ⚙️ systems & tools
 
-<a href="https://github.com/mlcompsci/PipeFork"><img src="assets/projects/pipefork.8bf4e358.svg" alt="PipeFork: a visual debugger for fork(), pipes and file descriptors" width="49%"></a>
-<a href="https://github.com/MichelleXiaoxuanWang/Dr.Mario"><img src="assets/projects/drmario.a4ad475d.svg" alt="Dr. Mario rebuilt in MIPS assembly for CSC258" width="49%"></a>
+<img src="assets/projects/cortexc.c4e46f16.svg" alt="CortexC: a C interpreter that visualizes the stack, heap and pointers as you step through code (CSC495 research)" width="49%">
 
 ## 🧰 stack
 

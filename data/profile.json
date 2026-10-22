@@ -29,7 +29,7 @@
     { "code": "STA237", "name": "Probability & Statistics", "term": "Fall 2024", "track": "math", "built": "the math under the ML", "leads_to": ["CSC311", "CSC263"] },
     { "code": "CSC263", "name": "Data Structures", "term": "Fall 2025", "track": "algorithms", "built": "heaps, hashing, graphs", "leads_to": ["CSC373"] },
     { "code": "CSC373", "name": "Algorithm Design", "term": "Winter 2026", "track": "algorithms", "built": "DP, flows, NP-hardness" },
-    { "code": "CSC258", "name": "Computer Organization", "term": "Fall 2024", "track": "systems", "built": "Dr. Mario in MIPS asm", "leads_to": ["CSC209"] },
+    { "code": "CSC258", "name": "Computer Organization", "term": "Fall 2024", "track": "systems", "built": "MIPS asm + digital logic", "leads_to": ["CSC209"] },
     { "code": "CSC209", "name": "Systems Programming", "term": "Winter 2026", "track": "systems", "built": "fork()+pipe() workers" }
   ],
 
@@ -42,18 +42,11 @@
       "repo": "mlcompsci/FruitVegetablePredictor", "role": "my repo"
     },
     {
-      "id": "pipefork", "section": "systems", "art": "pipes", "color": "#fbbf24",
-      "title": "PipeFork", "tag": "SYSTEMS · TEACHING TOOL",
-      "desc": "Visual debugger for fork(), pipes and file descriptors: a C-subset compiler + simulator you can step backwards.",
-      "tech": ["TypeScript", "compilers", "Unix"],
-      "repo": "mlcompsci/PipeFork", "role": "my repo"
-    },
-    {
-      "id": "drmario", "section": "systems", "art": "pills", "color": "#f87171",
-      "title": "Dr. Mario", "tag": "CSC258 · MIPS ASSEMBLY",
-      "desc": "The classic puzzle game rebuilt in pure MIPS assembly: falling capsules, colour matching and virus clearing.",
-      "tech": ["MIPS", "assembly", "CSC258"],
-      "repo": "MichelleXiaoxuanWang/Dr.Mario", "role": "contributor"
+      "id": "cortexc", "section": "systems", "art": "memory", "color": "#fbbf24",
+      "title": "CortexC", "tag": "CSC495 · C MEMORY VISUALIZER",
+      "desc": "C interpreter that makes memory visible: step through code and watch the stack, heap and pointers change, even backwards.",
+      "tech": ["TypeScript", "interpreters", "C"],
+      "role": "CSC495 research"
     }
   ],
 

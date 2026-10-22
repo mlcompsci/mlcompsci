@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="190" viewBox="0 0 440 190" role="img" aria-labelledby="title">
+<title id="title">CortexC — C interpreter that makes memory visible: step through code and watch the stack, heap and pointers change, even backwards.</title>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, Menlo, monospace}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090c17"/><stop offset="1" stop-color="#120e2c"/></linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r=".9" fill="#1c2346"/></pattern>
+  <clipPath id="frame"><rect width="440" height="190" rx="18"/></clipPath>
+  <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+  
+</defs>
+<g clip-path="url(#frame)">
+<rect width="440" height="190" fill="url(#bgGrad)"/>
+<rect width="440" height="190" fill="url(#dots)"/>
+<radialGradient id="cardGlow"><stop offset="0" stop-color="#fbbf24" stop-opacity=".22"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></radialGradient>
+<circle cx="374" cy="64" r="150" fill="url(#cardGlow)"/>
+<path d="M24 0H416" stroke="#fbbf24" stroke-width="3" opacity=".8"/>
+<text class="mono" x="24" y="36" font-size="10.5" letter-spacing="1.6" fill="#fbbf24">CSC495 · C MEMORY VISUALIZER</text>
+<text class="sans" x="24" y="66" font-size="22" font-weight="800" fill="#eceefb">CortexC</text>
+<text class="sans" x="24" y="92" font-size="12.5" fill="#a7aed0">C interpreter that makes memory visible:</text>
+<text class="sans" x="24" y="110" font-size="12.5" fill="#a7aed0">step through code and watch the stack, heap</text>
+<text class="sans" x="24" y="128" font-size="12.5" fill="#a7aed0">and pointers change, even backwards.</text>
+<text class="mono" x="332" y="36" font-size="8.5" fill="#6c7499">stack</text><text class="mono" x="386" y="36" font-size="8.5" fill="#6c7499">heap</text>
+<rect x="332" y="42" width="40" height="15" rx="3" fill="#0c1124" stroke="#fbbf24" stroke-opacity=".4"/><text class="mono" x="337" y="52.5" font-size="8.5" fill="#eceefb">n = 2</text><rect x="332" y="61" width="40" height="15" rx="3" fill="#0c1124" stroke="#fbbf24" stroke-opacity=".4"/><text class="mono" x="337" y="71.5" font-size="8.5" fill="#eceefb">p</text><rect x="332" y="80" width="40" height="15" rx="3" fill="#0c1124" stroke="#fbbf24" stroke-opacity=".4"/><text class="mono" x="337" y="90.5" font-size="8.5" fill="#eceefb">i = 0</text><rect x="386" y="52" width="34" height="15" rx="3" fill="#0c1124" stroke="#fbbf24" stroke-opacity=".4"/><text class="mono" x="391" y="62.5" font-size="8.5" fill="#eceefb">[0] 7</text><rect x="386" y="71" width="34" height="15" rx="3" fill="#0c1124" stroke="#fbbf24" stroke-opacity=".4"/><text class="mono" x="391" y="81.5" font-size="8.5" fill="#eceefb">[1] 4</text>
+<circle cx="364" cy="68.5" r="2.2" fill="#fbbf24"/>
+<path d="M364 68.5C376 68.5 374 59.5 385 59.5" fill="none" stroke="#fbbf24" stroke-width="1.4" stroke-dasharray="3 2"><animate attributeName="stroke-dashoffset" values="5;0" dur=".6s" repeatCount="indefinite"/></path>
+<path d="M381.5 56.5L385.5 59.5L381.5 62.5" fill="none" stroke="#fbbf24" stroke-width="1.4"/>
+<rect x="330" y="40" width="44" height="19" rx="4" fill="none" stroke="#fbbf24" stroke-width="1.6"><animate attributeName="y" values="40;59;78;59" dur="4s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text class="mono" x="373" y="118" font-size="8.5" fill="#6c7499" text-anchor="middle">◀ step ▶</text><rect x="24" y="150" width="83" height="21" rx="10.5" fill="#fbbf24" fill-opacity=".1" stroke="#fbbf24" stroke-opacity=".4"/>
+<text class="mono" x="65.5" y="164.28" font-size="10.5" fill="#a7aed0" text-anchor="middle">TypeScript</text><rect x="113" y="150" width="95.6" height="21" rx="10.5" fill="#fbbf24" fill-opacity=".1" stroke="#fbbf24" stroke-opacity=".4"/>
+<text class="mono" x="160.8" y="164.28" font-size="10.5" fill="#a7aed0" text-anchor="middle">interpreters</text><rect x="214.6" y="150" width="26.3" height="21" rx="10.5" fill="#fbbf24" fill-opacity=".1" stroke="#fbbf24" stroke-opacity=".4"/>
+<text class="mono" x="227.8" y="164.28" font-size="10.5" fill="#a7aed0" text-anchor="middle">C</text><text class="mono" x="416" y="164.5" font-size="10.5" fill="#6c7499" text-anchor="end">CSC495 research</text>
+</g>
+<rect x=".5" y=".5" width="439" height="189" rx="17.5" fill="none" stroke="#232b4d"/>
+</svg>

@@ -322,24 +322,16 @@ const ART = {
 <path d="M0 0L0 12L3.4 9L5.8 14L7.8 13.1L5.4 8.2L9.6 8.2Z" fill="#fff" stroke="#0b0f1f" stroke-width=".8"/></g>
 ${['#f472b6', '#a78bfa', '#34d399'].map((col, i) => `<circle cx="${355 + i * 18}" cy="110" r="6.5" fill="${col}" fill-opacity=".25" stroke="${col}"><animate attributeName="fill-opacity" values=".25;.9;.25;.25" keyTimes="0;.15;.33;1" dur="6s" begin="${i * 2}s" repeatCount="indefinite"/></circle>`).join('')}`;
   },
-  pipes(color) {
-    const node = (x, y, label) => `<circle cx="${x}" cy="${y}" r="11" fill="#0c1124" stroke="${color}" stroke-width="1.6"/><text class="mono" x="${x}" y="${y + 3}" font-size="8.5" fill="${C.text}" text-anchor="middle">${label}</text>`;
-    return `<path d="M366 42L351 81M380 42L395 81" stroke="${color}" stroke-opacity=".6" stroke-width="1.5"/>
-<text class="mono" x="389" y="35" font-size="8.5" fill="${C.muted}">fork()</text>
-<rect x="356" y="88" width="34" height="9" rx="4.5" fill="none" stroke="${color}" stroke-opacity=".7"/>
-${[0, 1, 2].map((i) => `<circle cy="92.5" r="2" fill="${color}"><animate attributeName="cx" values="360;386" dur="1.5s" begin="${i * 0.5}s" repeatCount="indefinite"/></circle>`).join('')}
-${node(373, 32, 'P0')}${node(345, 92, 'P1')}${node(401, 92, 'P2')}
-<text class="mono" x="373" y="118" font-size="8.5" fill="${C.muted}" text-anchor="middle">pipe → read()</text>`;
-  },
-  pills() {
-    const capsule = (cx, cy, a, l, r) => `<g transform="translate(${cx} ${cy}) rotate(${a})">
-<path d="M0 -6.5H-8.5A6.5 6.5 0 0 0 -8.5 6.5H0Z" fill="${l}"/><path d="M0 -6.5H8.5A6.5 6.5 0 0 1 8.5 6.5H0Z" fill="${r}"/>
-<path d="M0 -6.5V6.5" stroke="#0b0f1f" stroke-width="1"/></g>`;
-    return `<g><animateTransform attributeName="transform" type="translate" values="0 -46;0 0;0 0" keyTimes="0;.35;1" dur="3s" repeatCount="indefinite"/>
-<animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.12;.9;1" dur="3s" repeatCount="indefinite"/>${capsule(360, 62, 0, '#f87171', '#60a5fa')}</g>
-${capsule(394, 70, 90, '#facc15', '#f87171')}${capsule(352, 92, 0, '#60a5fa', '#facc15')}
-<g transform="translate(398 102)"><circle r="9" fill="#4ade80"/><circle cx="-3.2" cy="-1.5" r="2" fill="#0b0f1f"/><circle cx="3.2" cy="-1.5" r="2" fill="#0b0f1f"/><path d="M-3 3.5Q0 1.5 3 3.5" stroke="#0b0f1f" stroke-width="1.3" fill="none"/>
-<animateTransform attributeName="transform" type="translate" values="398 102;398 99;398 102" dur="1.2s" repeatCount="indefinite"/></g>`;
+  memory(color) {
+    // A stack frame whose pointer targets a heap block, with the "current step" moving forward then back.
+    const cell = (x, y, w, label) => `<rect x="${x}" y="${y}" width="${w}" height="15" rx="3" fill="#0c1124" stroke="${color}" stroke-opacity=".4"/><text class="mono" x="${x + 5}" y="${y + 10.5}" font-size="8.5" fill="${C.text}">${label}</text>`;
+    return `<text class="mono" x="332" y="36" font-size="8.5" fill="${C.muted}">stack</text><text class="mono" x="386" y="36" font-size="8.5" fill="${C.muted}">heap</text>
+${cell(332, 42, 40, 'n = 2')}${cell(332, 61, 40, 'p')}${cell(332, 80, 40, 'i = 0')}${cell(386, 52, 34, '[0] 7')}${cell(386, 71, 34, '[1] 4')}
+<circle cx="364" cy="68.5" r="2.2" fill="${color}"/>
+<path d="M364 68.5C376 68.5 374 59.5 385 59.5" fill="none" stroke="${color}" stroke-width="1.4" stroke-dasharray="3 2"><animate attributeName="stroke-dashoffset" values="5;0" dur=".6s" repeatCount="indefinite"/></path>
+<path d="M381.5 56.5L385.5 59.5L381.5 62.5" fill="none" stroke="${color}" stroke-width="1.4"/>
+<rect x="330" y="40" width="44" height="19" rx="4" fill="none" stroke="${color}" stroke-width="1.6"><animate attributeName="y" values="40;59;78;59" dur="4s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text class="mono" x="373" y="118" font-size="8.5" fill="${C.muted}" text-anchor="middle">◀ step ▶</text>`;
   },
 };
 
@@ -360,7 +352,7 @@ ${ART[p.art](p.color)}`;
     body += c.svg;
     x += c.w + 6;
   }
-  body += `<text class="mono" x="${W - 24}" y="164.5" font-size="10.5" fill="${C.muted}" text-anchor="end">↗ ${esc(p.role)}</text>`;
+  body += `<text class="mono" x="${W - 24}" y="164.5" font-size="10.5" fill="${C.muted}" text-anchor="end">${p.repo ? '↗ ' : ''}${esc(p.role)}</text>`;
   return svg(W, H, `${p.title} — ${p.desc}`, body);
 }
 

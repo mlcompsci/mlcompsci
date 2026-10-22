@@ -84,7 +84,7 @@
 <rect x="154.5" y="404" width="2.5" height="48" rx="1.25" fill="#fbbf24"/>
 <text class="mono" x="164.5" y="414" font-size="15" font-weight="700" fill="#fbbf24">CSC258</text>
 <text class="sans" x="164.5" y="434" font-size="12" fill="#eceefb">Computer Organization</text>
-<text class="mono" x="164.5" y="452" font-size="10" fill="#a7aed0">↳ Dr. Mario in MIPS asm</text><circle cx="146.5" cy="428" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/><circle cx="320.5" cy="428" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/></g><g class="rise" style="animation-delay:0.99s"><rect x="520.5" y="390" width="174" height="76" rx="12" fill="#111631" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
+<text class="mono" x="164.5" y="452" font-size="10" fill="#a7aed0">↳ MIPS asm + digital logic</text><circle cx="146.5" cy="428" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/><circle cx="320.5" cy="428" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/></g><g class="rise" style="animation-delay:0.99s"><rect x="520.5" y="390" width="174" height="76" rx="12" fill="#111631" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
 <rect x="528.5" y="404" width="2.5" height="48" rx="1.25" fill="#fbbf24"/>
 <text class="mono" x="538.5" y="414" font-size="15" font-weight="700" fill="#fbbf24">CSC209</text>
 <text class="sans" x="538.5" y="434" font-size="12" fill="#eceefb">Systems Programming</text>
