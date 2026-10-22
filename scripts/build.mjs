@@ -263,7 +263,7 @@ function courseMap() {
     body += `<circle cx="${x}" cy="${c.y}" r="4" fill="${C.bg}" stroke="${c.color}" stroke-width="2"/><circle cx="${x + CW}" cy="${c.y}" r="4" fill="${C.bg}" stroke="${c.color}" stroke-width="2"/></g>`;
   });
 
-  body += `<text class="mono" x="${W / 2}" y="500" font-size="10.5" fill="${C.muted}" text-anchor="middle" xml:space="preserve">◉ station = course     ↳ = what i built in it     ━ = what it led to     → more stops coming</text>`;
+  body += `<text class="mono" x="${W / 2}" y="500" font-size="10.5" fill="${C.muted}" text-anchor="middle" xml:space="preserve">◉ station = course     ↳ = what came out of it     ━ = what it led to     → more stops coming</text>`;
 
   const css = `
 .rail{stroke-dasharray:2 9;animation:rail 1.1s linear infinite}

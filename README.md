@@ -12,7 +12,7 @@
 
 ## 🗺️ the course map
 
-<img src="assets/course-map.svg" alt="Course map. ML / AI: CSC311 Intro to Machine Learning (Fall 2025) leads to CSC485 Computational Linguistics (Fall 2026, now). Math & Stats: STA237 Probability & Statistics (Fall 2024) leads to CSC311. Systems: CSC258 Computer Organization (Fall 2024) leads to CSC209 Systems Programming (Winter 2026). Software: CSC207 Software Design (Fall 2024) leads to CSC209 and to DCSIL, DCS Innovation Lab (Fall 2026, now)." width="100%">
+<img src="assets/course-map.svg" alt="Course map. ML / AI: CSC311 Intro to Machine Learning (Fall 2025) leads to CSC485 Computational Linguistics (Fall 2026, now). Math & Stats: STA237 Probability & Statistics (Fall 2024) leads to CSC311 and CSC263. Algorithms: CSC263 Data Structures (Fall 2025) leads to CSC373 Algorithm Design (Winter 2026). Systems: CSC258 Computer Organization (Fall 2024) leads to CSC209 Systems Programming (Winter 2026)." width="100%">
 
 ## 🧪 the ml lab
 

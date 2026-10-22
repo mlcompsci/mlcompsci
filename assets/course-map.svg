@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520" role="img" aria-labelledby="title">
-<title id="title">Course map — CSC311 Intro to Machine Learning (Fall 2025), CSC485 Computational Linguistics (Fall 2026), STA237 Probability &amp; Statistics (Fall 2024), CSC258 Computer Organization (Fall 2024), CSC209 Systems Programming (Winter 2026), CSC207 Software Design (Fall 2024), DCSIL DCS Innovation Lab (Fall 2026)</title>
+<title id="title">Course map — CSC311 Intro to Machine Learning (Fall 2025), CSC485 Computational Linguistics (Fall 2026), STA237 Probability &amp; Statistics (Fall 2024), CSC263 Data Structures (Fall 2025), CSC373 Algorithm Design (Winter 2026), CSC258 Computer Organization (Fall 2024), CSC209 Systems Programming (Winter 2026)</title>
 <style>
 .sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, Menlo, monospace}
 .rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
@@ -16,7 +16,7 @@
   <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r=".9" fill="#1c2346"/></pattern>
   <clipPath id="frame"><rect width="900" height="520" rx="18"/></clipPath>
   <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
-  <linearGradient id="lane0" gradientUnits="userSpaceOnUse" x1="140" y1="0" x2="892" y2="0"><stop offset="0" stop-color="#a78bfa" stop-opacity=".7"/><stop offset=".8" stop-color="#a78bfa" stop-opacity=".45"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient><linearGradient id="lane1" gradientUnits="userSpaceOnUse" x1="140" y1="0" x2="892" y2="0"><stop offset="0" stop-color="#34d399" stop-opacity=".7"/><stop offset=".8" stop-color="#34d399" stop-opacity=".45"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></linearGradient><linearGradient id="lane2" gradientUnits="userSpaceOnUse" x1="140" y1="0" x2="892" y2="0"><stop offset="0" stop-color="#fbbf24" stop-opacity=".7"/><stop offset=".8" stop-color="#fbbf24" stop-opacity=".45"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></linearGradient><linearGradient id="lane3" gradientUnits="userSpaceOnUse" x1="140" y1="0" x2="892" y2="0"><stop offset="0" stop-color="#38bdf8" stop-opacity=".7"/><stop offset=".8" stop-color="#38bdf8" stop-opacity=".45"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient><linearGradient id="edge0_0" gradientUnits="userSpaceOnUse" x1="507.5" y1="0" x2="707.5" y2="0"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient><linearGradient id="edge2_0" gradientUnits="userSpaceOnUse" x1="320.5" y1="0" x2="333.5" y2="0"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#a78bfa"/></linearGradient><linearGradient id="edge3_0" gradientUnits="userSpaceOnUse" x1="320.5" y1="0" x2="520.5" y2="0"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#fbbf24"/></linearGradient><linearGradient id="edge5_0" gradientUnits="userSpaceOnUse" x1="320.5" y1="0" x2="520.5" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#fbbf24"/></linearGradient><linearGradient id="edge5_1" gradientUnits="userSpaceOnUse" x1="320.5" y1="0" x2="707.5" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+  <linearGradient id="lane0" gradientUnits="userSpaceOnUse" x1="140" y1="0" x2="892" y2="0"><stop offset="0" stop-color="#a78bfa" stop-opacity=".7"/><stop offset=".8" stop-color="#a78bfa" stop-opacity=".45"/><stop offset="1" stop-color="#a78bfa" stop-opacity="0"/></linearGradient><linearGradient id="lane1" gradientUnits="userSpaceOnUse" x1="140" y1="0" x2="892" y2="0"><stop offset="0" stop-color="#34d399" stop-opacity=".7"/><stop offset=".8" stop-color="#34d399" stop-opacity=".45"/><stop offset="1" stop-color="#34d399" stop-opacity="0"/></linearGradient><linearGradient id="lane2" gradientUnits="userSpaceOnUse" x1="140" y1="0" x2="892" y2="0"><stop offset="0" stop-color="#38bdf8" stop-opacity=".7"/><stop offset=".8" stop-color="#38bdf8" stop-opacity=".45"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></linearGradient><linearGradient id="lane3" gradientUnits="userSpaceOnUse" x1="140" y1="0" x2="892" y2="0"><stop offset="0" stop-color="#fbbf24" stop-opacity=".7"/><stop offset=".8" stop-color="#fbbf24" stop-opacity=".45"/><stop offset="1" stop-color="#fbbf24" stop-opacity="0"/></linearGradient><linearGradient id="edge0_0" gradientUnits="userSpaceOnUse" x1="507.5" y1="0" x2="707.5" y2="0"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#a78bfa"/></linearGradient><linearGradient id="edge2_0" gradientUnits="userSpaceOnUse" x1="320.5" y1="0" x2="333.5" y2="0"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#a78bfa"/></linearGradient><linearGradient id="edge2_1" gradientUnits="userSpaceOnUse" x1="320.5" y1="0" x2="333.5" y2="0"><stop offset="0" stop-color="#34d399"/><stop offset="1" stop-color="#38bdf8"/></linearGradient><linearGradient id="edge3_0" gradientUnits="userSpaceOnUse" x1="507.5" y1="0" x2="520.5" y2="0"><stop offset="0" stop-color="#38bdf8"/><stop offset="1" stop-color="#38bdf8"/></linearGradient><linearGradient id="edge5_0" gradientUnits="userSpaceOnUse" x1="320.5" y1="0" x2="520.5" y2="0"><stop offset="0" stop-color="#fbbf24"/><stop offset="1" stop-color="#fbbf24"/></linearGradient>
 </defs>
 <g clip-path="url(#frame)">
 <rect width="900" height="520" fill="url(#bgGrad)"/>
@@ -38,22 +38,22 @@
 <text class="sans" x="44" y="236" font-size="12.5" font-weight="700" fill="#eceefb">Math &amp; Stats</text>
 <text class="mono" x="44" y="250" font-size="9.5" fill="#6c7499">1 stop</text><path d="M140 332H892" stroke="url(#lane2)" stroke-width="1" opacity=".5"/>
 <path class="rail" d="M140 332H892" stroke="url(#lane2)" stroke-width="3" stroke-linecap="round"/>
-<circle r="4" cy="332" fill="#fbbf24" filter="url(#blur)"><animate attributeName="cx" values="140;892" dur="9s" begin="-4.6s" repeatCount="indefinite"/></circle>
+<circle r="4" cy="332" fill="#38bdf8" filter="url(#blur)"><animate attributeName="cx" values="140;892" dur="9s" begin="-4.6s" repeatCount="indefinite"/></circle>
 <circle r="2.6" cy="332" fill="#fff"><animate attributeName="cx" values="140;892" dur="9s" begin="-4.6s" repeatCount="indefinite"/></circle>
-<circle cx="30" cy="328" r="5" fill="#fbbf24"/>
-<text class="sans" x="44" y="332" font-size="12.5" font-weight="700" fill="#eceefb">Systems</text>
+<circle cx="30" cy="328" r="5" fill="#38bdf8"/>
+<text class="sans" x="44" y="332" font-size="12.5" font-weight="700" fill="#eceefb">Algorithms</text>
 <text class="mono" x="44" y="346" font-size="9.5" fill="#6c7499">2 stops</text><path d="M140 428H892" stroke="url(#lane3)" stroke-width="1" opacity=".5"/>
 <path class="rail" d="M140 428H892" stroke="url(#lane3)" stroke-width="3" stroke-linecap="round"/>
-<circle r="4" cy="428" fill="#38bdf8" filter="url(#blur)"><animate attributeName="cx" values="140;892" dur="9s" begin="-6.9s" repeatCount="indefinite"/></circle>
+<circle r="4" cy="428" fill="#fbbf24" filter="url(#blur)"><animate attributeName="cx" values="140;892" dur="9s" begin="-6.9s" repeatCount="indefinite"/></circle>
 <circle r="2.6" cy="428" fill="#fff"><animate attributeName="cx" values="140;892" dur="9s" begin="-6.9s" repeatCount="indefinite"/></circle>
-<circle cx="30" cy="424" r="5" fill="#38bdf8"/>
-<text class="sans" x="44" y="428" font-size="12.5" font-weight="700" fill="#eceefb">Software</text>
+<circle cx="30" cy="424" r="5" fill="#fbbf24"/>
+<text class="sans" x="44" y="428" font-size="12.5" font-weight="700" fill="#eceefb">Systems</text>
 <text class="mono" x="44" y="442" font-size="9.5" fill="#6c7499">2 stops</text><path d="M507.5 140H707.5" fill="none" stroke="url(#edge0_0)" stroke-width="2.5" opacity=".55"/>
 <path class="flow" d="M507.5 140H707.5" fill="none" stroke="url(#edge0_0)" stroke-width="2.5" stroke-linecap="round"/><path d="M320.5 236C327 236 327 140 333.5 140" fill="none" stroke="url(#edge2_0)" stroke-width="2.5" opacity=".55"/>
-<path class="flow" d="M320.5 236C327 236 327 140 333.5 140" fill="none" stroke="url(#edge2_0)" stroke-width="2.5" stroke-linecap="round"/><path d="M320.5 332H520.5" fill="none" stroke="url(#edge3_0)" stroke-width="2.5" opacity=".55"/>
-<path class="flow" d="M320.5 332H520.5" fill="none" stroke="url(#edge3_0)" stroke-width="2.5" stroke-linecap="round"/><path d="M320.5 428C390.5 428 450.5 332 520.5 332" fill="none" stroke="url(#edge5_0)" stroke-width="2.5" opacity=".55"/>
-<path class="flow" d="M320.5 428C390.5 428 450.5 332 520.5 332" fill="none" stroke="url(#edge5_0)" stroke-width="2.5" stroke-linecap="round"/><path d="M320.5 428H707.5" fill="none" stroke="url(#edge5_1)" stroke-width="2.5" opacity=".55"/>
-<path class="flow" d="M320.5 428H707.5" fill="none" stroke="url(#edge5_1)" stroke-width="2.5" stroke-linecap="round"/><g class="rise" style="animation-delay:0.15s"><rect x="333.5" y="102" width="174" height="76" rx="12" fill="#111631" stroke="#a78bfa" stroke-opacity="0.4" stroke-width="1"/>
+<path class="flow" d="M320.5 236C327 236 327 140 333.5 140" fill="none" stroke="url(#edge2_0)" stroke-width="2.5" stroke-linecap="round"/><path d="M320.5 236C327 236 327 332 333.5 332" fill="none" stroke="url(#edge2_1)" stroke-width="2.5" opacity=".55"/>
+<path class="flow" d="M320.5 236C327 236 327 332 333.5 332" fill="none" stroke="url(#edge2_1)" stroke-width="2.5" stroke-linecap="round"/><path d="M507.5 332H520.5" fill="none" stroke="url(#edge3_0)" stroke-width="2.5" opacity=".55"/>
+<path class="flow" d="M507.5 332H520.5" fill="none" stroke="url(#edge3_0)" stroke-width="2.5" stroke-linecap="round"/><path d="M320.5 428H520.5" fill="none" stroke="url(#edge5_0)" stroke-width="2.5" opacity=".55"/>
+<path class="flow" d="M320.5 428H520.5" fill="none" stroke="url(#edge5_0)" stroke-width="2.5" stroke-linecap="round"/><g class="rise" style="animation-delay:0.15s"><rect x="333.5" y="102" width="174" height="76" rx="12" fill="#111631" stroke="#a78bfa" stroke-opacity="0.4" stroke-width="1"/>
 <rect x="341.5" y="116" width="2.5" height="48" rx="1.25" fill="#a78bfa"/>
 <text class="mono" x="351.5" y="126" font-size="15" font-weight="700" fill="#a78bfa">CSC311</text>
 <text class="sans" x="351.5" y="146" font-size="10.7" fill="#eceefb">Intro to Machine Learning</text>
@@ -67,25 +67,23 @@
 <rect x="154.5" y="212" width="2.5" height="48" rx="1.25" fill="#34d399"/>
 <text class="mono" x="164.5" y="222" font-size="15" font-weight="700" fill="#34d399">STA237</text>
 <text class="sans" x="164.5" y="242" font-size="11.1" fill="#eceefb">Probability &amp; Statistics</text>
-<text class="mono" x="164.5" y="260" font-size="10" fill="#a7aed0">↳ the math under the ML</text><circle cx="146.5" cy="236" r="4" fill="#090c17" stroke="#34d399" stroke-width="2"/><circle cx="320.5" cy="236" r="4" fill="#090c17" stroke="#34d399" stroke-width="2"/></g><g class="rise" style="animation-delay:0.51s"><rect x="146.5" y="294" width="174" height="76" rx="12" fill="#111631" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
-<rect x="154.5" y="308" width="2.5" height="48" rx="1.25" fill="#fbbf24"/>
-<text class="mono" x="164.5" y="318" font-size="15" font-weight="700" fill="#fbbf24">CSC258</text>
-<text class="sans" x="164.5" y="338" font-size="12" fill="#eceefb">Computer Organization</text>
-<text class="mono" x="164.5" y="356" font-size="10" fill="#a7aed0">↳ Dr. Mario in MIPS asm</text><circle cx="146.5" cy="332" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/><circle cx="320.5" cy="332" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/></g><g class="rise" style="animation-delay:0.63s"><rect x="520.5" y="294" width="174" height="76" rx="12" fill="#111631" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
-<rect x="528.5" y="308" width="2.5" height="48" rx="1.25" fill="#fbbf24"/>
-<text class="mono" x="538.5" y="318" font-size="15" font-weight="700" fill="#fbbf24">CSC209</text>
-<text class="sans" x="538.5" y="338" font-size="12" fill="#eceefb">Systems Programming</text>
-<text class="mono" x="538.5" y="356" font-size="10" fill="#a7aed0">↳ fork()+pipe() workers</text><circle cx="520.5" cy="332" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/><circle cx="694.5" cy="332" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/></g><g class="rise" style="animation-delay:0.75s"><rect x="146.5" y="390" width="174" height="76" rx="12" fill="#111631" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
-<rect x="154.5" y="404" width="2.5" height="48" rx="1.25" fill="#38bdf8"/>
-<text class="mono" x="164.5" y="414" font-size="15" font-weight="700" fill="#38bdf8">CSC207</text>
-<text class="sans" x="164.5" y="434" font-size="12" fill="#eceefb">Software Design</text>
-<text class="mono" x="164.5" y="452" font-size="10" fill="#a7aed0">↳ Pentagon-113 stock app</text><circle cx="146.5" cy="428" r="4" fill="#090c17" stroke="#38bdf8" stroke-width="2"/><circle cx="320.5" cy="428" r="4" fill="#090c17" stroke="#38bdf8" stroke-width="2"/></g><g class="rise" style="animation-delay:0.87s"><rect class="pulse" x="705.5" y="388" width="178" height="80" rx="14" fill="none" stroke="#38bdf8" stroke-width="3" filter="url(#blur)"/><rect x="707.5" y="390" width="174" height="76" rx="12" fill="#111631" stroke="#38bdf8" stroke-opacity="0.9" stroke-width="1.5"/>
-<rect x="715.5" y="404" width="2.5" height="48" rx="1.25" fill="#38bdf8"/>
-<text class="mono" x="725.5" y="414" font-size="15" font-weight="700" fill="#38bdf8">DCSIL</text>
-<text class="sans" x="725.5" y="434" font-size="12" fill="#eceefb">DCS Innovation Lab</text>
-<text class="mono" x="725.5" y="452" font-size="10" fill="#a7aed0">↳ startup MVP · Capybara</text><rect x="829.5" y="401" width="42" height="17" rx="8.5" fill="#f472b6" fill-opacity=".14" stroke="#f472b6" stroke-opacity=".6"/>
-<circle class="pulse" cx="838.5" cy="409.5" r="2.5" fill="#f472b6"/>
-<text class="mono" x="844.5" y="413" font-size="9.5" font-weight="700" fill="#f472b6">NOW</text><circle cx="707.5" cy="428" r="4" fill="#090c17" stroke="#38bdf8" stroke-width="2"/><circle cx="881.5" cy="428" r="4" fill="#090c17" stroke="#38bdf8" stroke-width="2"/></g><text class="mono" x="450" y="500" font-size="10.5" fill="#6c7499" text-anchor="middle" xml:space="preserve">◉ station = course     ↳ = what i built in it     ━ = what it led to     → more stops coming</text>
+<text class="mono" x="164.5" y="260" font-size="10" fill="#a7aed0">↳ the math under the ML</text><circle cx="146.5" cy="236" r="4" fill="#090c17" stroke="#34d399" stroke-width="2"/><circle cx="320.5" cy="236" r="4" fill="#090c17" stroke="#34d399" stroke-width="2"/></g><g class="rise" style="animation-delay:0.51s"><rect x="333.5" y="294" width="174" height="76" rx="12" fill="#111631" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+<rect x="341.5" y="308" width="2.5" height="48" rx="1.25" fill="#38bdf8"/>
+<text class="mono" x="351.5" y="318" font-size="15" font-weight="700" fill="#38bdf8">CSC263</text>
+<text class="sans" x="351.5" y="338" font-size="12" fill="#eceefb">Data Structures</text>
+<text class="mono" x="351.5" y="356" font-size="10" fill="#a7aed0">↳ heaps, hashing, graphs</text><circle cx="333.5" cy="332" r="4" fill="#090c17" stroke="#38bdf8" stroke-width="2"/><circle cx="507.5" cy="332" r="4" fill="#090c17" stroke="#38bdf8" stroke-width="2"/></g><g class="rise" style="animation-delay:0.63s"><rect x="520.5" y="294" width="174" height="76" rx="12" fill="#111631" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1"/>
+<rect x="528.5" y="308" width="2.5" height="48" rx="1.25" fill="#38bdf8"/>
+<text class="mono" x="538.5" y="318" font-size="15" font-weight="700" fill="#38bdf8">CSC373</text>
+<text class="sans" x="538.5" y="338" font-size="12" fill="#eceefb">Algorithm Design</text>
+<text class="mono" x="538.5" y="356" font-size="10" fill="#a7aed0">↳ DP, flows, NP-hardness</text><circle cx="520.5" cy="332" r="4" fill="#090c17" stroke="#38bdf8" stroke-width="2"/><circle cx="694.5" cy="332" r="4" fill="#090c17" stroke="#38bdf8" stroke-width="2"/></g><g class="rise" style="animation-delay:0.75s"><rect x="146.5" y="390" width="174" height="76" rx="12" fill="#111631" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
+<rect x="154.5" y="404" width="2.5" height="48" rx="1.25" fill="#fbbf24"/>
+<text class="mono" x="164.5" y="414" font-size="15" font-weight="700" fill="#fbbf24">CSC258</text>
+<text class="sans" x="164.5" y="434" font-size="12" fill="#eceefb">Computer Organization</text>
+<text class="mono" x="164.5" y="452" font-size="10" fill="#a7aed0">↳ Dr. Mario in MIPS asm</text><circle cx="146.5" cy="428" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/><circle cx="320.5" cy="428" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/></g><g class="rise" style="animation-delay:0.87s"><rect x="520.5" y="390" width="174" height="76" rx="12" fill="#111631" stroke="#fbbf24" stroke-opacity="0.4" stroke-width="1"/>
+<rect x="528.5" y="404" width="2.5" height="48" rx="1.25" fill="#fbbf24"/>
+<text class="mono" x="538.5" y="414" font-size="15" font-weight="700" fill="#fbbf24">CSC209</text>
+<text class="sans" x="538.5" y="434" font-size="12" fill="#eceefb">Systems Programming</text>
+<text class="mono" x="538.5" y="452" font-size="10" fill="#a7aed0">↳ fork()+pipe() workers</text><circle cx="520.5" cy="428" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/><circle cx="694.5" cy="428" r="4" fill="#090c17" stroke="#fbbf24" stroke-width="2"/></g><text class="mono" x="450" y="500" font-size="10.5" fill="#6c7499" text-anchor="middle" xml:space="preserve">◉ station = course     ↳ = what came out of it     ━ = what it led to     → more stops coming</text>
 </g>
 <rect x=".5" y=".5" width="899" height="519" rx="17.5" fill="none" stroke="#232b4d"/>
 </svg>

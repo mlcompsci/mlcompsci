@@ -19,17 +19,17 @@
   "tracks": [
     { "id": "ml", "name": "ML / AI", "color": "#a78bfa" },
     { "id": "math", "name": "Math & Stats", "color": "#34d399" },
-    { "id": "systems", "name": "Systems", "color": "#fbbf24" },
-    { "id": "software", "name": "Software", "color": "#38bdf8" }
+    { "id": "algorithms", "name": "Algorithms", "color": "#38bdf8" },
+    { "id": "systems", "name": "Systems", "color": "#fbbf24" }
   ],
   "courses": [
     { "code": "CSC311", "name": "Intro to Machine Learning", "term": "Fall 2025", "track": "ml", "built": "NN + naive Bayes clf", "leads_to": ["CSC485"] },
     { "code": "CSC485", "name": "Computational Linguistics", "term": "Fall 2026", "track": "ml", "built": "neural dep. parsers" },
-    { "code": "STA237", "name": "Probability & Statistics", "term": "Fall 2024", "track": "math", "built": "the math under the ML", "leads_to": ["CSC311"] },
+    { "code": "STA237", "name": "Probability & Statistics", "term": "Fall 2024", "track": "math", "built": "the math under the ML", "leads_to": ["CSC311", "CSC263"] },
+    { "code": "CSC263", "name": "Data Structures", "term": "Fall 2025", "track": "algorithms", "built": "heaps, hashing, graphs", "leads_to": ["CSC373"] },
+    { "code": "CSC373", "name": "Algorithm Design", "term": "Winter 2026", "track": "algorithms", "built": "DP, flows, NP-hardness" },
     { "code": "CSC258", "name": "Computer Organization", "term": "Fall 2024", "track": "systems", "built": "Dr. Mario in MIPS asm", "leads_to": ["CSC209"] },
-    { "code": "CSC209", "name": "Systems Programming", "term": "Winter 2026", "track": "systems", "built": "fork()+pipe() workers" },
-    { "code": "CSC207", "name": "Software Design", "term": "Fall 2024", "track": "software", "built": "Pentagon-113 stock app", "leads_to": ["CSC209", "DCSIL"] },
-    { "code": "DCSIL", "name": "DCS Innovation Lab", "term": "Fall 2026", "track": "software", "built": "startup MVP · Capybara" }
+    { "code": "CSC209", "name": "Systems Programming", "term": "Winter 2026", "track": "systems", "built": "fork()+pipe() workers" }
   ],
 
   "projects": [
