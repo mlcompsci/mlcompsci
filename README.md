@@ -8,7 +8,6 @@
 ### ⚡ right now
 
 - 🧠 **CSC485**: training neural dependency parsers in PyTorch
-- 🚀 **DCSIL**: shipping a startup MVP with team Capybara
 - 🛰️ **on the side**: model serving, inference routing, and LLM agents
 
 ## 🗺️ the course map
