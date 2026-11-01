@@ -1,0 +1,481 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title">
+<title id="title">Contribution skyline — 1278 contributions in the last year, 107 active days, best day 128 on Oct 21, longest streak 18 days, current streak 12 days</title>
+<style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, Menlo, monospace}
+.rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.pulse{animation:pulse 2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.25}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.grow{animation:grow .9s cubic-bezier(.2,.7,.2,1) both}
+@keyframes grow{from{transform:scaleY(0)}to{transform:none}}
+.flash{animation:flash 7s linear infinite}
+@keyframes flash{0%{opacity:.6}12%,100%{opacity:0}}</style>
+<defs>
+  <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#090c17"/><stop offset="1" stop-color="#120e2c"/></linearGradient>
+  <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="11" cy="11" r=".9" fill="#1c2346"/></pattern>
+  <clipPath id="frame"><rect width="900" height="420" rx="18"/></clipPath>
+  <filter id="blur" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+  <linearGradient id="statGrad" x1="0" x2="1"><stop offset="0" stop-color="#c4b5fd"/><stop offset="1" stop-color="#f472b6"/></linearGradient><linearGradient id="skyFront" gradientUnits="userSpaceOnUse" x1="0" y1="340" x2="0" y2="183.6"><stop offset="0" stop-color="#4c3aa8"/><stop offset="0.35" stop-color="#a78bfa"/><stop offset="0.75" stop-color="#f472b6"/><stop offset="1" stop-color="#fbbf24"/></linearGradient><linearGradient id="skySide" gradientUnits="userSpaceOnUse" x1="0" y1="340" x2="0" y2="183.6"><stop offset="0" stop-color="#2a2063"/><stop offset="0.35" stop-color="#6d55b8"/><stop offset="0.75" stop-color="#a8487f"/><stop offset="1" stop-color="#b0801a"/></linearGradient><linearGradient id="skyTop" gradientUnits="userSpaceOnUse" x1="0" y1="340" x2="0" y2="183.6"><stop offset="0" stop-color="#7c6bd6"/><stop offset="0.35" stop-color="#d3c4ff"/><stop offset="0.75" stop-color="#fbb6dc"/><stop offset="1" stop-color="#fde68a"/></linearGradient><radialGradient id="peakGlow"><stop offset="0" stop-color="#f472b6" stop-opacity=".3"/><stop offset="1" stop-color="#f472b6" stop-opacity="0"/></radialGradient>
+<linearGradient id="scan" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".07"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+</defs>
+<g clip-path="url(#frame)">
+<rect width="900" height="420" fill="url(#bgGrad)"/>
+<rect width="900" height="420" fill="url(#dots)"/>
+<rect width="900" height="46" fill="#0c1022"/><path d="M0 46H900" stroke="#232b4d"/>
+<circle cx="24" cy="23" r="5.5" fill="#ff5f57"/><circle cx="43" cy="23" r="5.5" fill="#febc2e"/><circle cx="62" cy="23" r="5.5" fill="#28c840"/>
+<text class="mono" x="450" y="27.5" font-size="12.5" fill="#a7aed0" text-anchor="middle">~/activity — git log --since=&quot;1 year ago&quot; | skyline</text>
+<text class="mono" x="878" y="27.5" font-size="11" fill="#6c7499" text-anchor="end">updated Nov 1</text><g class="rise" style="animation-delay:0.10s">
+<text class="mono" x="32" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">CONTRIBUTIONS</text>
+<text class="sans" x="32" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">1278</text>
+<text class="mono" x="32" y="132" font-size="10.5" fill="#a7aed0">in the last year</text></g><path d="M196.8 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.20s">
+<text class="mono" x="214.8" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">ACTIVE DAYS</text>
+<text class="sans" x="214.8" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">107</text>
+<text class="mono" x="214.8" y="132" font-size="10.5" fill="#a7aed0">out of 365</text></g><path d="M365.6 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.30s">
+<text class="mono" x="383.6" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">BEST DAY</text>
+<text class="sans" x="383.6" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">128</text>
+<text class="mono" x="383.6" y="132" font-size="10.5" fill="#a7aed0">on Oct 21</text></g><path d="M534.4 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.40s">
+<text class="mono" x="552.4" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">LONGEST STREAK</text>
+<text class="sans" x="552.4" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">18</text>
+<text class="mono" x="552.4" y="132" font-size="10.5" fill="#a7aed0">days in a row</text></g><path d="M703.2 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.50s">
+<text class="mono" x="721.2" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">CURRENT STREAK</text>
+<text class="sans" x="721.2" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">12</text>
+<text class="mono" x="721.2" y="132" font-size="10.5" fill="#a7aed0">days and counting</text></g><circle cx="801.5" cy="200.3" r="90" fill="url(#peakGlow)"/><polygon points="82.4,301.6 94,301.6 99,296.6 87.4,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="97,301.6 108.6,301.6 113.6,296.6 102,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="111.6,301.6 123.2,301.6 128.2,296.6 116.6,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:126.2px 301.6px;animation-delay:0.35s">
+<rect x="126.2" y="269.5" width="11.6" height="32.1" fill="url(#skyFront)"/>
+<polygon points="137.8,301.6 142.8,296.6 142.8,264.5 137.8,269.5" fill="url(#skySide)"/>
+<polygon points="126.2,269.5 137.8,269.5 142.8,264.5 131.2,264.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="126.2,269.5 137.8,269.5 142.8,264.5 131.2,264.5" fill="#fff" opacity="0" style="animation-delay:2.42s"/></g><polygon points="140.8,301.6 152.4,301.6 157.4,296.6 145.8,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="155.4,301.6 167,301.6 172,296.6 160.4,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="170,301.6 181.6,301.6 186.6,296.6 175,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="184.6,301.6 196.2,301.6 201.2,296.6 189.6,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="199.2,301.6 210.8,301.6 215.8,296.6 204.2,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="213.8,301.6 225.4,301.6 230.4,296.6 218.8,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="228.4,301.6 240,301.6 245,296.6 233.4,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:243px 301.6px;animation-delay:0.50s">
+<rect x="243" y="286" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="254.6,301.6 259.6,296.6 259.6,281 254.6,286" fill="url(#skySide)"/>
+<polygon points="243,286 254.6,286 259.6,281 248,281" fill="url(#skyTop)"/>
+<polygon class="flash" points="243,286 254.6,286 259.6,281 248,281" fill="#fff" opacity="0" style="animation-delay:3.34s"/></g><polygon points="257.6,301.6 269.2,301.6 274.2,296.6 262.6,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="272.2,301.6 283.8,301.6 288.8,296.6 277.2,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="286.8,301.6 298.4,301.6 303.4,296.6 291.8,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:301.4px 301.6px;animation-delay:0.57s">
+<rect x="301.4" y="289.7" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="313,301.6 318,296.6 318,284.7 313,289.7" fill="url(#skySide)"/>
+<polygon points="301.4,289.7 313,289.7 318,284.7 306.4,284.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="301.4,289.7 313,289.7 318,284.7 306.4,284.7" fill="#fff" opacity="0" style="animation-delay:3.79s"/></g><polygon points="316,301.6 327.6,301.6 332.6,296.6 321,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="330.6,301.6 342.2,301.6 347.2,296.6 335.6,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="345.2,301.6 356.8,301.6 361.8,296.6 350.2,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="359.8,301.6 371.4,301.6 376.4,296.6 364.8,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="374.4,301.6 386,301.6 391,296.6 379.4,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="389,301.6 400.6,301.6 405.6,296.6 394,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="403.6,301.6 415.2,301.6 420.2,296.6 408.6,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="418.2,301.6 429.8,301.6 434.8,296.6 423.2,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="432.8,301.6 444.4,301.6 449.4,296.6 437.8,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="447.4,301.6 459,301.6 464,296.6 452.4,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="462,301.6 473.6,301.6 478.6,296.6 467,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="476.6,301.6 488.2,301.6 493.2,296.6 481.6,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="491.2,301.6 502.8,301.6 507.8,296.6 496.2,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="505.8,301.6 517.4,301.6 522.4,296.6 510.8,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:520.4px 301.6px;animation-delay:0.84s">
+<rect x="520.4" y="278.4" width="11.6" height="23.2" fill="url(#skyFront)"/>
+<polygon points="532,301.6 537,296.6 537,273.4 532,278.4" fill="url(#skySide)"/>
+<polygon points="520.4,278.4 532,278.4 537,273.4 525.4,273.4" fill="url(#skyTop)"/>
+<polygon class="flash" points="520.4,278.4 532,278.4 537,273.4 525.4,273.4" fill="#fff" opacity="0" style="animation-delay:5.51s"/></g><polygon points="535,301.6 546.6,301.6 551.6,296.6 540,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="549.6,301.6 561.2,301.6 566.2,296.6 554.6,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:564.2px 301.6px;animation-delay:0.89s">
+<rect x="564.2" y="260" width="11.6" height="41.6" fill="url(#skyFront)"/>
+<polygon points="575.8,301.6 580.8,296.6 580.8,255 575.8,260" fill="url(#skySide)"/>
+<polygon points="564.2,260 575.8,260 580.8,255 569.2,255" fill="url(#skyTop)"/>
+<polygon class="flash" points="564.2,260 575.8,260 580.8,255 569.2,255" fill="#fff" opacity="0" style="animation-delay:5.85s"/></g><polygon points="578.8,301.6 590.4,301.6 595.4,296.6 583.8,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:593.4px 301.6px;animation-delay:0.93s">
+<rect x="593.4" y="274.5" width="11.6" height="27.1" fill="url(#skyFront)"/>
+<polygon points="605,301.6 610,296.6 610,269.5 605,274.5" fill="url(#skySide)"/>
+<polygon points="593.4,274.5 605,274.5 610,269.5 598.4,269.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="593.4,274.5 605,274.5 610,269.5 598.4,269.5" fill="#fff" opacity="0" style="animation-delay:6.08s"/></g><g class="grow" style="transform-origin:608px 301.6px;animation-delay:0.95s">
+<rect x="608" y="278.4" width="11.6" height="23.2" fill="url(#skyFront)"/>
+<polygon points="619.6,301.6 624.6,296.6 624.6,273.4 619.6,278.4" fill="url(#skySide)"/>
+<polygon points="608,278.4 619.6,278.4 624.6,273.4 613,273.4" fill="url(#skyTop)"/>
+<polygon class="flash" points="608,278.4 619.6,278.4 624.6,273.4 613,273.4" fill="#fff" opacity="0" style="animation-delay:6.19s"/></g><polygon points="622.6,301.6 634.2,301.6 639.2,296.6 627.6,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:637.2px 301.6px;animation-delay:0.98s">
+<rect x="637.2" y="289.7" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="648.8,301.6 653.8,296.6 653.8,284.7 648.8,289.7" fill="url(#skySide)"/>
+<polygon points="637.2,289.7 648.8,289.7 653.8,284.7 642.2,284.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="637.2,289.7 648.8,289.7 653.8,284.7 642.2,284.7" fill="#fff" opacity="0" style="animation-delay:6.42s"/></g><g class="grow" style="transform-origin:651.8px 301.6px;animation-delay:1.00s">
+<rect x="651.8" y="274.5" width="11.6" height="27.1" fill="url(#skyFront)"/>
+<polygon points="663.4,301.6 668.4,296.6 668.4,269.5 663.4,274.5" fill="url(#skySide)"/>
+<polygon points="651.8,274.5 663.4,274.5 668.4,269.5 656.8,269.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="651.8,274.5 663.4,274.5 668.4,269.5 656.8,269.5" fill="#fff" opacity="0" style="animation-delay:6.54s"/></g><polygon points="666.4,301.6 678,301.6 683,296.6 671.4,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="681,301.6 692.6,301.6 697.6,296.6 686,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="695.6,301.6 707.2,301.6 712.2,296.6 700.6,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:710.2px 301.6px;animation-delay:1.07s">
+<rect x="710.2" y="289.7" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="721.8,301.6 726.8,296.6 726.8,284.7 721.8,289.7" fill="url(#skySide)"/>
+<polygon points="710.2,289.7 721.8,289.7 726.8,284.7 715.2,284.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="710.2,289.7 721.8,289.7 726.8,284.7 715.2,284.7" fill="#fff" opacity="0" style="animation-delay:6.99s"/></g><polygon points="724.8,301.6 736.4,301.6 741.4,296.6 729.8,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:739.4px 301.6px;animation-delay:1.11s">
+<rect x="739.4" y="289.7" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="751,301.6 756,296.6 756,284.7 751,289.7" fill="url(#skySide)"/>
+<polygon points="739.4,289.7 751,289.7 756,284.7 744.4,284.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="739.4,289.7 751,289.7 756,284.7 744.4,284.7" fill="#fff" opacity="0" style="animation-delay:7.22s"/></g><g class="grow" style="transform-origin:754px 301.6px;animation-delay:1.13s">
+<rect x="754" y="269.5" width="11.6" height="32.1" fill="url(#skyFront)"/>
+<polygon points="765.6,301.6 770.6,296.6 770.6,264.5 765.6,269.5" fill="url(#skySide)"/>
+<polygon points="754,269.5 765.6,269.5 770.6,264.5 759,264.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="754,269.5 765.6,269.5 770.6,264.5 759,264.5" fill="#fff" opacity="0" style="animation-delay:7.34s"/></g><polygon points="768.6,301.6 780.2,301.6 785.2,296.6 773.6,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:783.2px 301.6px;animation-delay:1.16s">
+<rect x="783.2" y="229.6" width="11.6" height="72" fill="url(#skyFront)"/>
+<polygon points="794.8,301.6 799.8,296.6 799.8,224.6 794.8,229.6" fill="url(#skySide)"/>
+<polygon points="783.2,229.6 794.8,229.6 799.8,224.6 788.2,224.6" fill="url(#skyTop)"/>
+<polygon class="flash" points="783.2,229.6 794.8,229.6 799.8,224.6 788.2,224.6" fill="#fff" opacity="0" style="animation-delay:7.56s"/></g><polygon points="797.8,301.6 809.4,301.6 814.4,296.6 802.8,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:812.4px 301.6px;animation-delay:1.20s">
+<rect x="812.4" y="289.7" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="824,301.6 829,296.6 829,284.7 824,289.7" fill="url(#skySide)"/>
+<polygon points="812.4,289.7 824,289.7 829,284.7 817.4,284.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="812.4,289.7 824,289.7 829,284.7 817.4,284.7" fill="#fff" opacity="0" style="animation-delay:7.79s"/></g><g class="grow" style="transform-origin:827px 301.6px;animation-delay:1.22s">
+<rect x="827" y="257.7" width="11.6" height="43.9" fill="url(#skyFront)"/>
+<polygon points="838.6,301.6 843.6,296.6 843.6,252.7 838.6,257.7" fill="url(#skySide)"/>
+<polygon points="827,257.7 838.6,257.7 843.6,252.7 832,252.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="827,257.7 838.6,257.7 843.6,252.7 832,252.7" fill="#fff" opacity="0" style="animation-delay:7.91s"/></g><polygon points="841.6,301.6 853.2,301.6 858.2,296.6 846.6,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="76,308 87.6,308 92.6,303 81,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="90.6,308 102.2,308 107.2,303 95.6,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:105.2px 308px;animation-delay:0.34s">
+<rect x="105.2" y="292.4" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="116.8,308 121.8,303 121.8,287.4 116.8,292.4" fill="url(#skySide)"/>
+<polygon points="105.2,292.4 116.8,292.4 121.8,287.4 110.2,287.4" fill="url(#skyTop)"/>
+<polygon class="flash" points="105.2,292.4 116.8,292.4 121.8,287.4 110.2,287.4" fill="#fff" opacity="0" style="animation-delay:2.26s"/></g><polygon points="119.8,308 131.4,308 136.4,303 124.8,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="134.4,308 146,308 151,303 139.4,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="149,308 160.6,308 165.6,303 154,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="163.6,308 175.2,308 180.2,303 168.6,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="178.2,308 189.8,308 194.8,303 183.2,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="192.8,308 204.4,308 209.4,303 197.8,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="207.4,308 219,308 224,303 212.4,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="222,308 233.6,308 238.6,303 227,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="236.6,308 248.2,308 253.2,303 241.6,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="251.2,308 262.8,308 267.8,303 256.2,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="265.8,308 277.4,308 282.4,303 270.8,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="280.4,308 292,308 297,303 285.4,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="295,308 306.6,308 311.6,303 300,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="309.6,308 321.2,308 326.2,303 314.6,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="324.2,308 335.8,308 340.8,303 329.2,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="338.8,308 350.4,308 355.4,303 343.8,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:353.4px 308px;animation-delay:0.64s">
+<rect x="353.4" y="296.1" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="365,308 370,303 370,291.1 365,296.1" fill="url(#skySide)"/>
+<polygon points="353.4,296.1 365,296.1 370,291.1 358.4,291.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="353.4,296.1 365,296.1 370,291.1 358.4,291.1" fill="#fff" opacity="0" style="animation-delay:4.20s"/></g><polygon points="368,308 379.6,308 384.6,303 373,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="382.6,308 394.2,308 399.2,303 387.6,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="397.2,308 408.8,308 413.8,303 402.2,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="411.8,308 423.4,308 428.4,303 416.8,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="426.4,308 438,308 443,303 431.4,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="441,308 452.6,308 457.6,303 446,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="455.6,308 467.2,308 472.2,303 460.6,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="470.2,308 481.8,308 486.8,303 475.2,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:484.8px 308px;animation-delay:0.80s">
+<rect x="484.8" y="296.1" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="496.4,308 501.4,303 501.4,291.1 496.4,296.1" fill="url(#skySide)"/>
+<polygon points="484.8,296.1 496.4,296.1 501.4,291.1 489.8,291.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="484.8,296.1 496.4,296.1 501.4,291.1 489.8,291.1" fill="#fff" opacity="0" style="animation-delay:5.23s"/></g><polygon points="499.4,308 511,308 516,303 504.4,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:514px 308px;animation-delay:0.84s">
+<rect x="514" y="289.5" width="11.6" height="18.5" fill="url(#skyFront)"/>
+<polygon points="525.6,308 530.6,303 530.6,284.5 525.6,289.5" fill="url(#skySide)"/>
+<polygon points="514,289.5 525.6,289.5 530.6,284.5 519,284.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="514,289.5 525.6,289.5 530.6,284.5 519,284.5" fill="#fff" opacity="0" style="animation-delay:5.46s"/></g><polygon points="528.6,308 540.2,308 545.2,303 533.6,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:543.2px 308px;animation-delay:0.88s">
+<rect x="543.2" y="284.8" width="11.6" height="23.2" fill="url(#skyFront)"/>
+<polygon points="554.8,308 559.8,303 559.8,279.8 554.8,284.8" fill="url(#skySide)"/>
+<polygon points="543.2,284.8 554.8,284.8 559.8,279.8 548.2,279.8" fill="url(#skyTop)"/>
+<polygon class="flash" points="543.2,284.8 554.8,284.8 559.8,279.8 548.2,279.8" fill="#fff" opacity="0" style="animation-delay:5.69s"/></g><g class="grow" style="transform-origin:557.8px 308px;animation-delay:0.89s">
+<rect x="557.8" y="270.2" width="11.6" height="37.8" fill="url(#skyFront)"/>
+<polygon points="569.4,308 574.4,303 574.4,265.2 569.4,270.2" fill="url(#skySide)"/>
+<polygon points="557.8,270.2 569.4,270.2 574.4,265.2 562.8,265.2" fill="url(#skyTop)"/>
+<polygon class="flash" points="557.8,270.2 569.4,270.2 574.4,265.2 562.8,265.2" fill="#fff" opacity="0" style="animation-delay:5.80s"/></g><polygon points="572.4,308 584,308 589,303 577.4,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:587px 308px;animation-delay:0.93s">
+<rect x="587" y="265.2" width="11.6" height="42.8" fill="url(#skyFront)"/>
+<polygon points="598.6,308 603.6,303 603.6,260.2 598.6,265.2" fill="url(#skySide)"/>
+<polygon points="587,265.2 598.6,265.2 603.6,260.2 592,260.2" fill="url(#skyTop)"/>
+<polygon class="flash" points="587,265.2 598.6,265.2 603.6,260.2 592,260.2" fill="#fff" opacity="0" style="animation-delay:6.03s"/></g><g class="grow" style="transform-origin:601.6px 308px;animation-delay:0.95s">
+<rect x="601.6" y="289.5" width="11.6" height="18.5" fill="url(#skyFront)"/>
+<polygon points="613.2,308 618.2,303 618.2,284.5 613.2,289.5" fill="url(#skySide)"/>
+<polygon points="601.6,289.5 613.2,289.5 618.2,284.5 606.6,284.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="601.6,289.5 613.2,289.5 618.2,284.5 606.6,284.5" fill="#fff" opacity="0" style="animation-delay:6.14s"/></g><g class="grow" style="transform-origin:616.2px 308px;animation-delay:0.97s">
+<rect x="616.2" y="289.5" width="11.6" height="18.5" fill="url(#skyFront)"/>
+<polygon points="627.8,308 632.8,303 632.8,284.5 627.8,289.5" fill="url(#skySide)"/>
+<polygon points="616.2,289.5 627.8,289.5 632.8,284.5 621.2,284.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="616.2,289.5 627.8,289.5 632.8,284.5 621.2,284.5" fill="#fff" opacity="0" style="animation-delay:6.26s"/></g><polygon points="630.8,308 642.4,308 647.4,303 635.8,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="645.4,308 657,308 662,303 650.4,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:660px 308px;animation-delay:1.02s">
+<rect x="660" y="292.4" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="671.6,308 676.6,303 676.6,287.4 671.6,292.4" fill="url(#skySide)"/>
+<polygon points="660,292.4 671.6,292.4 676.6,287.4 665,287.4" fill="url(#skyTop)"/>
+<polygon class="flash" points="660,292.4 671.6,292.4 676.6,287.4 665,287.4" fill="#fff" opacity="0" style="animation-delay:6.60s"/></g><polygon points="674.6,308 686.2,308 691.2,303 679.6,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="689.2,308 700.8,308 705.8,303 694.2,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="703.8,308 715.4,308 720.4,303 708.8,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="718.4,308 730,308 735,303 723.4,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="733,308 744.6,308 749.6,303 738,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:747.6px 308px;animation-delay:1.13s">
+<rect x="747.6" y="232.4" width="11.6" height="75.6" fill="url(#skyFront)"/>
+<polygon points="759.2,308 764.2,303 764.2,227.4 759.2,232.4" fill="url(#skySide)"/>
+<polygon points="747.6,232.4 759.2,232.4 764.2,227.4 752.6,227.4" fill="url(#skyTop)"/>
+<polygon class="flash" points="747.6,232.4 759.2,232.4 764.2,227.4 752.6,227.4" fill="#fff" opacity="0" style="animation-delay:7.29s"/></g><polygon points="762.2,308 773.8,308 778.8,303 767.2,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:776.8px 308px;animation-delay:1.16s">
+<rect x="776.8" y="199.1" width="11.6" height="108.9" fill="url(#skyFront)"/>
+<polygon points="788.4,308 793.4,303 793.4,194.1 788.4,199.1" fill="url(#skySide)"/>
+<polygon points="776.8,199.1 788.4,199.1 793.4,194.1 781.8,194.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="776.8,199.1 788.4,199.1 793.4,194.1 781.8,194.1" fill="#fff" opacity="0" style="animation-delay:7.51s"/></g><polygon points="791.4,308 803,308 808,303 796.4,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="806,308 817.6,308 822.6,303 811,303" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:820.6px 308px;animation-delay:1.22s">
+<rect x="820.6" y="224.8" width="11.6" height="83.2" fill="url(#skyFront)"/>
+<polygon points="832.2,308 837.2,303 837.2,219.8 832.2,224.8" fill="url(#skySide)"/>
+<polygon points="820.6,224.8 832.2,224.8 837.2,219.8 825.6,219.8" fill="url(#skyTop)"/>
+<polygon class="flash" points="820.6,224.8 832.2,224.8 837.2,219.8 825.6,219.8" fill="#fff" opacity="0" style="animation-delay:7.86s"/></g><polygon points="69.6,314.4 81.2,314.4 86.2,309.4 74.6,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="84.2,314.4 95.8,314.4 100.8,309.4 89.2,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:98.8px 314.4px;animation-delay:0.34s">
+<rect x="98.8" y="302.5" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="110.4,314.4 115.4,309.4 115.4,297.5 110.4,302.5" fill="url(#skySide)"/>
+<polygon points="98.8,302.5 110.4,302.5 115.4,297.5 103.8,297.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="98.8,302.5 110.4,302.5 115.4,297.5 103.8,297.5" fill="#fff" opacity="0" style="animation-delay:2.21s"/></g><polygon points="113.4,314.4 125,314.4 130,309.4 118.4,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="128,314.4 139.6,314.4 144.6,309.4 133,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="142.6,314.4 154.2,314.4 159.2,309.4 147.6,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="157.2,314.4 168.8,314.4 173.8,309.4 162.2,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="171.8,314.4 183.4,314.4 188.4,309.4 176.8,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="186.4,314.4 198,314.4 203,309.4 191.4,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="201,314.4 212.6,314.4 217.6,309.4 206,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="215.6,314.4 227.2,314.4 232.2,309.4 220.6,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="230.2,314.4 241.8,314.4 246.8,309.4 235.2,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="244.8,314.4 256.4,314.4 261.4,309.4 249.8,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="259.4,314.4 271,314.4 276,309.4 264.4,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="274,314.4 285.6,314.4 290.6,309.4 279,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="288.6,314.4 300.2,314.4 305.2,309.4 293.6,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="303.2,314.4 314.8,314.4 319.8,309.4 308.2,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="317.8,314.4 329.4,314.4 334.4,309.4 322.8,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="332.4,314.4 344,314.4 349,309.4 337.4,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:347px 314.4px;animation-delay:0.64s">
+<rect x="347" y="283.9" width="11.6" height="30.5" fill="url(#skyFront)"/>
+<polygon points="358.6,314.4 363.6,309.4 363.6,278.9 358.6,283.9" fill="url(#skySide)"/>
+<polygon points="347,283.9 358.6,283.9 363.6,278.9 352,278.9" fill="url(#skyTop)"/>
+<polygon class="flash" points="347,283.9 358.6,283.9 363.6,278.9 352,278.9" fill="#fff" opacity="0" style="animation-delay:4.15s"/></g><polygon points="361.6,314.4 373.2,314.4 378.2,309.4 366.6,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="376.2,314.4 387.8,314.4 392.8,309.4 381.2,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="390.8,314.4 402.4,314.4 407.4,309.4 395.8,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="405.4,314.4 417,314.4 422,309.4 410.4,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="420,314.4 431.6,314.4 436.6,309.4 425,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="434.6,314.4 446.2,314.4 451.2,309.4 439.6,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="449.2,314.4 460.8,314.4 465.8,309.4 454.2,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="463.8,314.4 475.4,314.4 480.4,309.4 468.8,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:478.4px 314.4px;animation-delay:0.80s">
+<rect x="478.4" y="298.8" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="490,314.4 495,309.4 495,293.8 490,298.8" fill="url(#skySide)"/>
+<polygon points="478.4,298.8 490,298.8 495,293.8 483.4,293.8" fill="url(#skyTop)"/>
+<polygon class="flash" points="478.4,298.8 490,298.8 495,293.8 483.4,293.8" fill="#fff" opacity="0" style="animation-delay:5.18s"/></g><polygon points="493,314.4 504.6,314.4 509.6,309.4 498,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="507.6,314.4 519.2,314.4 524.2,309.4 512.6,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="522.2,314.4 533.8,314.4 538.8,309.4 527.2,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:536.8px 314.4px;animation-delay:0.88s">
+<rect x="536.8" y="291.2" width="11.6" height="23.2" fill="url(#skyFront)"/>
+<polygon points="548.4,314.4 553.4,309.4 553.4,286.2 548.4,291.2" fill="url(#skySide)"/>
+<polygon points="536.8,291.2 548.4,291.2 553.4,286.2 541.8,286.2" fill="url(#skyTop)"/>
+<polygon class="flash" points="536.8,291.2 548.4,291.2 553.4,286.2 541.8,286.2" fill="#fff" opacity="0" style="animation-delay:5.64s"/></g><g class="grow" style="transform-origin:551.4px 314.4px;animation-delay:0.89s">
+<rect x="551.4" y="302.5" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="563,314.4 568,309.4 568,297.5 563,302.5" fill="url(#skySide)"/>
+<polygon points="551.4,302.5 563,302.5 568,297.5 556.4,297.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="551.4,302.5 563,302.5 568,297.5 556.4,297.5" fill="#fff" opacity="0" style="animation-delay:5.75s"/></g><g class="grow" style="transform-origin:566px 314.4px;animation-delay:0.91s">
+<rect x="566" y="295.9" width="11.6" height="18.5" fill="url(#skyFront)"/>
+<polygon points="577.6,314.4 582.6,309.4 582.6,290.9 577.6,295.9" fill="url(#skySide)"/>
+<polygon points="566,295.9 577.6,295.9 582.6,290.9 571,290.9" fill="url(#skyTop)"/>
+<polygon class="flash" points="566,295.9 577.6,295.9 582.6,290.9 571,290.9" fill="#fff" opacity="0" style="animation-delay:5.86s"/></g><g class="grow" style="transform-origin:580.6px 314.4px;animation-delay:0.93s">
+<rect x="580.6" y="272.8" width="11.6" height="41.6" fill="url(#skyFront)"/>
+<polygon points="592.2,314.4 597.2,309.4 597.2,267.8 592.2,272.8" fill="url(#skySide)"/>
+<polygon points="580.6,272.8 592.2,272.8 597.2,267.8 585.6,267.8" fill="url(#skyTop)"/>
+<polygon class="flash" points="580.6,272.8 592.2,272.8 597.2,267.8 585.6,267.8" fill="#fff" opacity="0" style="animation-delay:5.98s"/></g><g class="grow" style="transform-origin:595.2px 314.4px;animation-delay:0.95s">
+<rect x="595.2" y="282.3" width="11.6" height="32.1" fill="url(#skyFront)"/>
+<polygon points="606.8,314.4 611.8,309.4 611.8,277.3 606.8,282.3" fill="url(#skySide)"/>
+<polygon points="595.2,282.3 606.8,282.3 611.8,277.3 600.2,277.3" fill="url(#skyTop)"/>
+<polygon class="flash" points="595.2,282.3 606.8,282.3 611.8,277.3 600.2,277.3" fill="#fff" opacity="0" style="animation-delay:6.09s"/></g><g class="grow" style="transform-origin:609.8px 314.4px;animation-delay:0.97s">
+<rect x="609.8" y="252.8" width="11.6" height="61.6" fill="url(#skyFront)"/>
+<polygon points="621.4,314.4 626.4,309.4 626.4,247.8 621.4,252.8" fill="url(#skySide)"/>
+<polygon points="609.8,252.8 621.4,252.8 626.4,247.8 614.8,247.8" fill="url(#skyTop)"/>
+<polygon class="flash" points="609.8,252.8 621.4,252.8 626.4,247.8 614.8,247.8" fill="#fff" opacity="0" style="animation-delay:6.21s"/></g><g class="grow" style="transform-origin:624.4px 314.4px;animation-delay:0.98s">
+<rect x="624.4" y="302.5" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="636,314.4 641,309.4 641,297.5 636,302.5" fill="url(#skySide)"/>
+<polygon points="624.4,302.5 636,302.5 641,297.5 629.4,297.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="624.4,302.5 636,302.5 641,297.5 629.4,297.5" fill="#fff" opacity="0" style="animation-delay:6.32s"/></g><polygon points="639,314.4 650.6,314.4 655.6,309.4 644,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:653.6px 314.4px;animation-delay:1.02s">
+<rect x="653.6" y="289.2" width="11.6" height="25.2" fill="url(#skyFront)"/>
+<polygon points="665.2,314.4 670.2,309.4 670.2,284.2 665.2,289.2" fill="url(#skySide)"/>
+<polygon points="653.6,289.2 665.2,289.2 670.2,284.2 658.6,284.2" fill="url(#skyTop)"/>
+<polygon class="flash" points="653.6,289.2 665.2,289.2 670.2,284.2 658.6,284.2" fill="#fff" opacity="0" style="animation-delay:6.55s"/></g><polygon points="668.2,314.4 679.8,314.4 684.8,309.4 673.2,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="682.8,314.4 694.4,314.4 699.4,309.4 687.8,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="697.4,314.4 709,314.4 714,309.4 702.4,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="712,314.4 723.6,314.4 728.6,309.4 717,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="726.6,314.4 738.2,314.4 743.2,309.4 731.6,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:741.2px 314.4px;animation-delay:1.13s">
+<rect x="741.2" y="276.6" width="11.6" height="37.8" fill="url(#skyFront)"/>
+<polygon points="752.8,314.4 757.8,309.4 757.8,271.6 752.8,276.6" fill="url(#skySide)"/>
+<polygon points="741.2,276.6 752.8,276.6 757.8,271.6 746.2,271.6" fill="url(#skyTop)"/>
+<polygon class="flash" points="741.2,276.6 752.8,276.6 757.8,271.6 746.2,271.6" fill="#fff" opacity="0" style="animation-delay:7.24s"/></g><polygon points="755.8,314.4 767.4,314.4 772.4,309.4 760.8,309.4" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:770.4px 314.4px;animation-delay:1.16s">
+<rect x="770.4" y="251.1" width="11.6" height="63.3" fill="url(#skyFront)"/>
+<polygon points="782,314.4 787,309.4 787,246.1 782,251.1" fill="url(#skySide)"/>
+<polygon points="770.4,251.1 782,251.1 787,246.1 775.4,246.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="770.4,251.1 782,251.1 787,246.1 775.4,246.1" fill="#fff" opacity="0" style="animation-delay:7.46s"/></g><g class="grow" style="transform-origin:785px 314.4px;animation-delay:1.18s">
+<rect x="785" y="298.8" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="796.6,314.4 801.6,309.4 801.6,293.8 796.6,298.8" fill="url(#skySide)"/>
+<polygon points="785,298.8 796.6,298.8 801.6,293.8 790,293.8" fill="url(#skyTop)"/>
+<polygon class="flash" points="785,298.8 796.6,298.8 801.6,293.8 790,293.8" fill="#fff" opacity="0" style="animation-delay:7.58s"/></g><g class="grow" style="transform-origin:799.6px 314.4px;animation-delay:1.20s">
+<rect x="799.6" y="302.5" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="811.2,314.4 816.2,309.4 816.2,297.5 811.2,302.5" fill="url(#skySide)"/>
+<polygon points="799.6,302.5 811.2,302.5 816.2,297.5 804.6,297.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="799.6,302.5 811.2,302.5 816.2,297.5 804.6,297.5" fill="#fff" opacity="0" style="animation-delay:7.69s"/></g><g class="grow" style="transform-origin:814.2px 314.4px;animation-delay:1.22s">
+<rect x="814.2" y="259.1" width="11.6" height="55.3" fill="url(#skyFront)"/>
+<polygon points="825.8,314.4 830.8,309.4 830.8,254.1 825.8,259.1" fill="url(#skySide)"/>
+<polygon points="814.2,259.1 825.8,259.1 830.8,254.1 819.2,254.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="814.2,259.1 825.8,259.1 830.8,254.1 819.2,254.1" fill="#fff" opacity="0" style="animation-delay:7.81s"/></g><polygon points="63.2,320.8 74.8,320.8 79.8,315.8 68.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="77.8,320.8 89.4,320.8 94.4,315.8 82.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="92.4,320.8 104,320.8 109,315.8 97.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="107,320.8 118.6,320.8 123.6,315.8 112,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="121.6,320.8 133.2,320.8 138.2,315.8 126.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="136.2,320.8 147.8,320.8 152.8,315.8 141.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="150.8,320.8 162.4,320.8 167.4,315.8 155.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="165.4,320.8 177,320.8 182,315.8 170.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="180,320.8 191.6,320.8 196.6,315.8 185,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="194.6,320.8 206.2,320.8 211.2,315.8 199.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="209.2,320.8 220.8,320.8 225.8,315.8 214.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="223.8,320.8 235.4,320.8 240.4,315.8 228.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="238.4,320.8 250,320.8 255,315.8 243.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="253,320.8 264.6,320.8 269.6,315.8 258,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="267.6,320.8 279.2,320.8 284.2,315.8 272.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="282.2,320.8 293.8,320.8 298.8,315.8 287.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="296.8,320.8 308.4,320.8 313.4,315.8 301.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="311.4,320.8 323,320.8 328,315.8 316.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="326,320.8 337.6,320.8 342.6,315.8 331,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:340.6px 320.8px;animation-delay:0.64s">
+<rect x="340.6" y="293.7" width="11.6" height="27.1" fill="url(#skyFront)"/>
+<polygon points="352.2,320.8 357.2,315.8 357.2,288.7 352.2,293.7" fill="url(#skySide)"/>
+<polygon points="340.6,293.7 352.2,293.7 357.2,288.7 345.6,288.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="340.6,293.7 352.2,293.7 357.2,288.7 345.6,288.7" fill="#fff" opacity="0" style="animation-delay:4.10s"/></g><polygon points="355.2,320.8 366.8,320.8 371.8,315.8 360.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="369.8,320.8 381.4,320.8 386.4,315.8 374.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="384.4,320.8 396,320.8 401,315.8 389.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="399,320.8 410.6,320.8 415.6,315.8 404,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="413.6,320.8 425.2,320.8 430.2,315.8 418.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="428.2,320.8 439.8,320.8 444.8,315.8 433.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="442.8,320.8 454.4,320.8 459.4,315.8 447.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="457.4,320.8 469,320.8 474,315.8 462.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="472,320.8 483.6,320.8 488.6,315.8 477,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:486.6px 320.8px;animation-delay:0.82s">
+<rect x="486.6" y="305.2" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="498.2,320.8 503.2,315.8 503.2,300.2 498.2,305.2" fill="url(#skySide)"/>
+<polygon points="486.6,305.2 498.2,305.2 503.2,300.2 491.6,300.2" fill="url(#skyTop)"/>
+<polygon class="flash" points="486.6,305.2 498.2,305.2 503.2,300.2 491.6,300.2" fill="#fff" opacity="0" style="animation-delay:5.24s"/></g><polygon points="501.2,320.8 512.8,320.8 517.8,315.8 506.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:515.8px 320.8px;animation-delay:0.86s">
+<rect x="515.8" y="308.9" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="527.4,320.8 532.4,315.8 532.4,303.9 527.4,308.9" fill="url(#skySide)"/>
+<polygon points="515.8,308.9 527.4,308.9 532.4,303.9 520.8,303.9" fill="url(#skyTop)"/>
+<polygon class="flash" points="515.8,308.9 527.4,308.9 532.4,303.9 520.8,303.9" fill="#fff" opacity="0" style="animation-delay:5.47s"/></g><g class="grow" style="transform-origin:530.4px 320.8px;animation-delay:0.88s">
+<rect x="530.4" y="288.7" width="11.6" height="32.1" fill="url(#skyFront)"/>
+<polygon points="542,320.8 547,315.8 547,283.7 542,288.7" fill="url(#skySide)"/>
+<polygon points="530.4,288.7 542,288.7 547,283.7 535.4,283.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="530.4,288.7 542,288.7 547,283.7 535.4,283.7" fill="#fff" opacity="0" style="animation-delay:5.59s"/></g><g class="grow" style="transform-origin:545px 320.8px;animation-delay:0.89s">
+<rect x="545" y="299.9" width="11.6" height="20.9" fill="url(#skyFront)"/>
+<polygon points="556.6,320.8 561.6,315.8 561.6,294.9 556.6,299.9" fill="url(#skySide)"/>
+<polygon points="545,299.9 556.6,299.9 561.6,294.9 550,294.9" fill="url(#skyTop)"/>
+<polygon class="flash" points="545,299.9 556.6,299.9 561.6,294.9 550,294.9" fill="#fff" opacity="0" style="animation-delay:5.70s"/></g><g class="grow" style="transform-origin:559.6px 320.8px;animation-delay:0.91s">
+<rect x="559.6" y="308.9" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="571.2,320.8 576.2,315.8 576.2,303.9 571.2,308.9" fill="url(#skySide)"/>
+<polygon points="559.6,308.9 571.2,308.9 576.2,303.9 564.6,303.9" fill="url(#skyTop)"/>
+<polygon class="flash" points="559.6,308.9 571.2,308.9 576.2,303.9 564.6,303.9" fill="#fff" opacity="0" style="animation-delay:5.81s"/></g><g class="grow" style="transform-origin:574.2px 320.8px;animation-delay:0.93s">
+<rect x="574.2" y="276.9" width="11.6" height="43.9" fill="url(#skyFront)"/>
+<polygon points="585.8,320.8 590.8,315.8 590.8,271.9 585.8,276.9" fill="url(#skySide)"/>
+<polygon points="574.2,276.9 585.8,276.9 590.8,271.9 579.2,271.9" fill="url(#skyTop)"/>
+<polygon class="flash" points="574.2,276.9 585.8,276.9 590.8,271.9 579.2,271.9" fill="#fff" opacity="0" style="animation-delay:5.93s"/></g><g class="grow" style="transform-origin:588.8px 320.8px;animation-delay:0.95s">
+<rect x="588.8" y="284.4" width="11.6" height="36.4" fill="url(#skyFront)"/>
+<polygon points="600.4,320.8 605.4,315.8 605.4,279.4 600.4,284.4" fill="url(#skySide)"/>
+<polygon points="588.8,284.4 600.4,284.4 605.4,279.4 593.8,279.4" fill="url(#skyTop)"/>
+<polygon class="flash" points="588.8,284.4 600.4,284.4 605.4,279.4 593.8,279.4" fill="#fff" opacity="0" style="animation-delay:6.04s"/></g><g class="grow" style="transform-origin:603.4px 320.8px;animation-delay:0.97s">
+<rect x="603.4" y="305.2" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="615,320.8 620,315.8 620,300.2 615,305.2" fill="url(#skySide)"/>
+<polygon points="603.4,305.2 615,305.2 620,300.2 608.4,300.2" fill="url(#skyTop)"/>
+<polygon class="flash" points="603.4,305.2 615,305.2 620,300.2 608.4,300.2" fill="#fff" opacity="0" style="animation-delay:6.16s"/></g><polygon points="618,320.8 629.6,320.8 634.6,315.8 623,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="632.6,320.8 644.2,320.8 649.2,315.8 637.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="647.2,320.8 658.8,320.8 663.8,315.8 652.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="661.8,320.8 673.4,320.8 678.4,315.8 666.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="676.4,320.8 688,320.8 693,315.8 681.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="691,320.8 702.6,320.8 707.6,315.8 696,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="705.6,320.8 717.2,320.8 722.2,315.8 710.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:720.2px 320.8px;animation-delay:1.11s">
+<rect x="720.2" y="269.4" width="11.6" height="51.4" fill="url(#skyFront)"/>
+<polygon points="731.8,320.8 736.8,315.8 736.8,264.4 731.8,269.4" fill="url(#skySide)"/>
+<polygon points="720.2,269.4 731.8,269.4 736.8,264.4 725.2,264.4" fill="url(#skyTop)"/>
+<polygon class="flash" points="720.2,269.4 731.8,269.4 736.8,264.4 725.2,264.4" fill="#fff" opacity="0" style="animation-delay:7.07s"/></g><g class="grow" style="transform-origin:734.8px 320.8px;animation-delay:1.13s">
+<rect x="734.8" y="256.7" width="11.6" height="64.1" fill="url(#skyFront)"/>
+<polygon points="746.4,320.8 751.4,315.8 751.4,251.7 746.4,256.7" fill="url(#skySide)"/>
+<polygon points="734.8,256.7 746.4,256.7 751.4,251.7 739.8,251.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="734.8,256.7 746.4,256.7 751.4,251.7 739.8,251.7" fill="#fff" opacity="0" style="animation-delay:7.19s"/></g><polygon points="749.4,320.8 761,320.8 766,315.8 754.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:764px 320.8px;animation-delay:1.16s">
+<rect x="764" y="273.5" width="11.6" height="47.3" fill="url(#skyFront)"/>
+<polygon points="775.6,320.8 780.6,315.8 780.6,268.5 775.6,273.5" fill="url(#skySide)"/>
+<polygon points="764,273.5 775.6,273.5 780.6,268.5 769,268.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="764,273.5 775.6,273.5 780.6,268.5 769,268.5" fill="#fff" opacity="0" style="animation-delay:7.41s"/></g><polygon points="778.6,320.8 790.2,320.8 795.2,315.8 783.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:793.2px 320.8px;animation-delay:1.20s">
+<rect x="793.2" y="202.8" width="11.6" height="118" fill="url(#skyFront)"/>
+<polygon points="804.8,320.8 809.8,315.8 809.8,197.8 804.8,202.8" fill="url(#skySide)"/>
+<polygon points="793.2,202.8 804.8,202.8 809.8,197.8 798.2,197.8" fill="url(#skyTop)"/>
+<polygon class="flash" points="793.2,202.8 804.8,202.8 809.8,197.8 798.2,197.8" fill="#fff" opacity="0" style="animation-delay:7.64s"/></g><g class="grow" style="transform-origin:807.8px 320.8px;animation-delay:1.22s">
+<rect x="807.8" y="293.7" width="11.6" height="27.1" fill="url(#skyFront)"/>
+<polygon points="819.4,320.8 824.4,315.8 824.4,288.7 819.4,293.7" fill="url(#skySide)"/>
+<polygon points="807.8,293.7 819.4,293.7 824.4,288.7 812.8,288.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="807.8,293.7 819.4,293.7 824.4,288.7 812.8,288.7" fill="#fff" opacity="0" style="animation-delay:7.76s"/></g><polygon points="56.8,327.2 68.4,327.2 73.4,322.2 61.8,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="71.4,327.2 83,327.2 88,322.2 76.4,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:86px 327.2px;animation-delay:0.34s">
+<rect x="86" y="315.3" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="97.6,327.2 102.6,322.2 102.6,310.3 97.6,315.3" fill="url(#skySide)"/>
+<polygon points="86,315.3 97.6,315.3 102.6,310.3 91,310.3" fill="url(#skyTop)"/>
+<polygon class="flash" points="86,315.3 97.6,315.3 102.6,310.3 91,310.3" fill="#fff" opacity="0" style="animation-delay:2.11s"/></g><polygon points="100.6,327.2 112.2,327.2 117.2,322.2 105.6,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="115.2,327.2 126.8,327.2 131.8,322.2 120.2,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="129.8,327.2 141.4,327.2 146.4,322.2 134.8,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="144.4,327.2 156,327.2 161,322.2 149.4,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="159,327.2 170.6,327.2 175.6,322.2 164,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="173.6,327.2 185.2,327.2 190.2,322.2 178.6,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="188.2,327.2 199.8,327.2 204.8,322.2 193.2,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="202.8,327.2 214.4,327.2 219.4,322.2 207.8,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="217.4,327.2 229,327.2 234,322.2 222.4,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="232,327.2 243.6,327.2 248.6,322.2 237,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="246.6,327.2 258.2,327.2 263.2,322.2 251.6,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:261.2px 327.2px;animation-delay:0.55s">
+<rect x="261.2" y="311.6" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="272.8,327.2 277.8,322.2 277.8,306.6 272.8,311.6" fill="url(#skySide)"/>
+<polygon points="261.2,311.6 272.8,311.6 277.8,306.6 266.2,306.6" fill="url(#skyTop)"/>
+<polygon class="flash" points="261.2,311.6 272.8,311.6 277.8,306.6 266.2,306.6" fill="#fff" opacity="0" style="animation-delay:3.48s"/></g><polygon points="275.8,327.2 287.4,327.2 292.4,322.2 280.8,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="290.4,327.2 302,327.2 307,322.2 295.4,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="305,327.2 316.6,327.2 321.6,322.2 310,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="319.6,327.2 331.2,327.2 336.2,322.2 324.6,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="334.2,327.2 345.8,327.2 350.8,322.2 339.2,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="348.8,327.2 360.4,327.2 365.4,322.2 353.8,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="363.4,327.2 375,327.2 380,322.2 368.4,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="378,327.2 389.6,327.2 394.6,322.2 383,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="392.6,327.2 404.2,327.2 409.2,322.2 397.6,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="407.2,327.2 418.8,327.2 423.8,322.2 412.2,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="421.8,327.2 433.4,327.2 438.4,322.2 426.8,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="436.4,327.2 448,327.2 453,322.2 441.4,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="451,327.2 462.6,327.2 467.6,322.2 456,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="465.6,327.2 477.2,327.2 482.2,322.2 470.6,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="480.2,327.2 491.8,327.2 496.8,322.2 485.2,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:494.8px 327.2px;animation-delay:0.84s">
+<rect x="494.8" y="302" width="11.6" height="25.2" fill="url(#skyFront)"/>
+<polygon points="506.4,327.2 511.4,322.2 511.4,297 506.4,302" fill="url(#skySide)"/>
+<polygon points="494.8,302 506.4,302 511.4,297 499.8,297" fill="url(#skyTop)"/>
+<polygon class="flash" points="494.8,302 506.4,302 511.4,297 499.8,297" fill="#fff" opacity="0" style="animation-delay:5.31s"/></g><g class="grow" style="transform-origin:509.4px 327.2px;animation-delay:0.86s">
+<rect x="509.4" y="306.3" width="11.6" height="20.9" fill="url(#skyFront)"/>
+<polygon points="521,327.2 526,322.2 526,301.3 521,306.3" fill="url(#skySide)"/>
+<polygon points="509.4,306.3 521,306.3 526,301.3 514.4,301.3" fill="url(#skyTop)"/>
+<polygon class="flash" points="509.4,306.3 521,306.3 526,301.3 514.4,301.3" fill="#fff" opacity="0" style="animation-delay:5.42s"/></g><polygon points="524,327.2 535.6,327.2 540.6,322.2 529,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="538.6,327.2 550.2,327.2 555.2,322.2 543.6,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:553.2px 327.2px;animation-delay:0.91s">
+<rect x="553.2" y="264.7" width="11.6" height="62.5" fill="url(#skyFront)"/>
+<polygon points="564.8,327.2 569.8,322.2 569.8,259.7 564.8,264.7" fill="url(#skySide)"/>
+<polygon points="553.2,264.7 564.8,264.7 569.8,259.7 558.2,259.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="553.2,264.7 564.8,264.7 569.8,259.7 558.2,259.7" fill="#fff" opacity="0" style="animation-delay:5.76s"/></g><g class="grow" style="transform-origin:567.8px 327.2px;animation-delay:0.93s">
+<rect x="567.8" y="281" width="11.6" height="46.2" fill="url(#skyFront)"/>
+<polygon points="579.4,327.2 584.4,322.2 584.4,276 579.4,281" fill="url(#skySide)"/>
+<polygon points="567.8,281 579.4,281 584.4,276 572.8,276" fill="url(#skyTop)"/>
+<polygon class="flash" points="567.8,281 579.4,281 584.4,276 572.8,276" fill="#fff" opacity="0" style="animation-delay:5.88s"/></g><g class="grow" style="transform-origin:582.4px 327.2px;animation-delay:0.95s">
+<rect x="582.4" y="315.3" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="594,327.2 599,322.2 599,310.3 594,315.3" fill="url(#skySide)"/>
+<polygon points="582.4,315.3 594,315.3 599,310.3 587.4,310.3" fill="url(#skyTop)"/>
+<polygon class="flash" points="582.4,315.3 594,315.3 599,310.3 587.4,310.3" fill="#fff" opacity="0" style="animation-delay:5.99s"/></g><polygon points="597,327.2 608.6,327.2 613.6,322.2 602,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="611.6,327.2 623.2,327.2 628.2,322.2 616.6,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="626.2,327.2 637.8,327.2 642.8,322.2 631.2,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="640.8,327.2 652.4,327.2 657.4,322.2 645.8,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:655.4px 327.2px;animation-delay:1.04s">
+<rect x="655.4" y="304" width="11.6" height="23.2" fill="url(#skyFront)"/>
+<polygon points="667,327.2 672,322.2 672,299 667,304" fill="url(#skySide)"/>
+<polygon points="655.4,304 667,304 672,299 660.4,299" fill="url(#skyTop)"/>
+<polygon class="flash" points="655.4,304 667,304 672,299 660.4,299" fill="#fff" opacity="0" style="animation-delay:6.56s"/></g><polygon points="670,327.2 681.6,327.2 686.6,322.2 675,322.2" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:684.6px 327.2px;animation-delay:1.07s">
+<rect x="684.6" y="293.6" width="11.6" height="33.6" fill="url(#skyFront)"/>
+<polygon points="696.2,327.2 701.2,322.2 701.2,288.6 696.2,293.6" fill="url(#skySide)"/>
+<polygon points="684.6,293.6 696.2,293.6 701.2,288.6 689.6,288.6" fill="url(#skyTop)"/>
+<polygon class="flash" points="684.6,293.6 696.2,293.6 701.2,288.6 689.6,288.6" fill="#fff" opacity="0" style="animation-delay:6.79s"/></g><g class="grow" style="transform-origin:699.2px 327.2px;animation-delay:1.09s">
+<rect x="699.2" y="315.3" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="710.8,327.2 715.8,322.2 715.8,310.3 710.8,315.3" fill="url(#skySide)"/>
+<polygon points="699.2,315.3 710.8,315.3 715.8,310.3 704.2,310.3" fill="url(#skyTop)"/>
+<polygon class="flash" points="699.2,315.3 710.8,315.3 715.8,310.3 704.2,310.3" fill="#fff" opacity="0" style="animation-delay:6.91s"/></g><g class="grow" style="transform-origin:713.8px 327.2px;animation-delay:1.11s">
+<rect x="713.8" y="306.3" width="11.6" height="20.9" fill="url(#skyFront)"/>
+<polygon points="725.4,327.2 730.4,322.2 730.4,301.3 725.4,306.3" fill="url(#skySide)"/>
+<polygon points="713.8,306.3 725.4,306.3 730.4,301.3 718.8,301.3" fill="url(#skyTop)"/>
+<polygon class="flash" points="713.8,306.3 725.4,306.3 730.4,301.3 718.8,301.3" fill="#fff" opacity="0" style="animation-delay:7.02s"/></g><g class="grow" style="transform-origin:728.4px 327.2px;animation-delay:1.13s">
+<rect x="728.4" y="315.3" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="740,327.2 745,322.2 745,310.3 740,315.3" fill="url(#skySide)"/>
+<polygon points="728.4,315.3 740,315.3 745,310.3 733.4,310.3" fill="url(#skyTop)"/>
+<polygon class="flash" points="728.4,315.3 740,315.3 745,310.3 733.4,310.3" fill="#fff" opacity="0" style="animation-delay:7.14s"/></g><g class="grow" style="transform-origin:743px 327.2px;animation-delay:1.15s">
+<rect x="743" y="271.9" width="11.6" height="55.3" fill="url(#skyFront)"/>
+<polygon points="754.6,327.2 759.6,322.2 759.6,266.9 754.6,271.9" fill="url(#skySide)"/>
+<polygon points="743,271.9 754.6,271.9 759.6,266.9 748,266.9" fill="url(#skyTop)"/>
+<polygon class="flash" points="743,271.9 754.6,271.9 759.6,266.9 748,266.9" fill="#fff" opacity="0" style="animation-delay:7.25s"/></g><g class="grow" style="transform-origin:757.6px 327.2px;animation-delay:1.16s">
+<rect x="757.6" y="311.6" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="769.2,327.2 774.2,322.2 774.2,306.6 769.2,311.6" fill="url(#skySide)"/>
+<polygon points="757.6,311.6 769.2,311.6 774.2,306.6 762.6,306.6" fill="url(#skyTop)"/>
+<polygon class="flash" points="757.6,311.6 769.2,311.6 774.2,306.6 762.6,306.6" fill="#fff" opacity="0" style="animation-delay:7.36s"/></g><g class="grow" style="transform-origin:772.2px 327.2px;animation-delay:1.18s">
+<rect x="772.2" y="315.3" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="783.8,327.2 788.8,322.2 788.8,310.3 783.8,315.3" fill="url(#skySide)"/>
+<polygon points="772.2,315.3 783.8,315.3 788.8,310.3 777.2,310.3" fill="url(#skyTop)"/>
+<polygon class="flash" points="772.2,315.3 783.8,315.3 788.8,310.3 777.2,310.3" fill="#fff" opacity="0" style="animation-delay:7.48s"/></g><g class="grow" style="transform-origin:786.8px 327.2px;animation-delay:1.20s">
+<rect x="786.8" y="296.7" width="11.6" height="30.5" fill="url(#skyFront)"/>
+<polygon points="798.4,327.2 803.4,322.2 803.4,291.7 798.4,296.7" fill="url(#skySide)"/>
+<polygon points="786.8,296.7 798.4,296.7 803.4,291.7 791.8,291.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="786.8,296.7 798.4,296.7 803.4,291.7 791.8,291.7" fill="#fff" opacity="0" style="animation-delay:7.59s"/></g><g class="grow" style="transform-origin:801.4px 327.2px;animation-delay:1.22s">
+<rect x="801.4" y="311.6" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="813,327.2 818,322.2 818,306.6 813,311.6" fill="url(#skySide)"/>
+<polygon points="801.4,311.6 813,311.6 818,306.6 806.4,306.6" fill="url(#skyTop)"/>
+<polygon class="flash" points="801.4,311.6 813,311.6 818,306.6 806.4,306.6" fill="#fff" opacity="0" style="animation-delay:7.71s"/></g><polygon points="50.4,333.6 62,333.6 67,328.6 55.4,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="65,333.6 76.6,333.6 81.6,328.6 70,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="79.6,333.6 91.2,333.6 96.2,328.6 84.6,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="94.2,333.6 105.8,333.6 110.8,328.6 99.2,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="108.8,333.6 120.4,333.6 125.4,328.6 113.8,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="123.4,333.6 135,333.6 140,328.6 128.4,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="138,333.6 149.6,333.6 154.6,328.6 143,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="152.6,333.6 164.2,333.6 169.2,328.6 157.6,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="167.2,333.6 178.8,333.6 183.8,328.6 172.2,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="181.8,333.6 193.4,333.6 198.4,328.6 186.8,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="196.4,333.6 208,333.6 213,328.6 201.4,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="211,333.6 222.6,333.6 227.6,328.6 216,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="225.6,333.6 237.2,333.6 242.2,328.6 230.6,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="240.2,333.6 251.8,333.6 256.8,328.6 245.2,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="254.8,333.6 266.4,333.6 271.4,328.6 259.8,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="269.4,333.6 281,333.6 286,328.6 274.4,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="284,333.6 295.6,333.6 300.6,328.6 289,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="298.6,333.6 310.2,333.6 315.2,328.6 303.6,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="313.2,333.6 324.8,333.6 329.8,328.6 318.2,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="327.8,333.6 339.4,333.6 344.4,328.6 332.8,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:342.4px 333.6px;animation-delay:0.66s">
+<rect x="342.4" y="321.7" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="354,333.6 359,328.6 359,316.7 354,321.7" fill="url(#skySide)"/>
+<polygon points="342.4,321.7 354,321.7 359,316.7 347.4,316.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="342.4,321.7 354,321.7 359,316.7 347.4,316.7" fill="#fff" opacity="0" style="animation-delay:4.11s"/></g><polygon points="357,333.6 368.6,333.6 373.6,328.6 362,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="371.6,333.6 383.2,333.6 388.2,328.6 376.6,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="386.2,333.6 397.8,333.6 402.8,328.6 391.2,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="400.8,333.6 412.4,333.6 417.4,328.6 405.8,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="415.4,333.6 427,333.6 432,328.6 420.4,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:430px 333.6px;animation-delay:0.77s">
+<rect x="430" y="318" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="441.6,333.6 446.6,328.6 446.6,313 441.6,318" fill="url(#skySide)"/>
+<polygon points="430,318 441.6,318 446.6,313 435,313" fill="url(#skyTop)"/>
+<polygon class="flash" points="430,318 441.6,318 446.6,313 435,313" fill="#fff" opacity="0" style="animation-delay:4.80s"/></g><g class="grow" style="transform-origin:444.6px 333.6px;animation-delay:0.79s">
+<rect x="444.6" y="318" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="456.2,333.6 461.2,328.6 461.2,313 456.2,318" fill="url(#skySide)"/>
+<polygon points="444.6,318 456.2,318 461.2,313 449.6,313" fill="url(#skyTop)"/>
+<polygon class="flash" points="444.6,318 456.2,318 461.2,313 449.6,313" fill="#fff" opacity="0" style="animation-delay:4.91s"/></g><g class="grow" style="transform-origin:459.2px 333.6px;animation-delay:0.80s">
+<rect x="459.2" y="321.7" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="470.8,333.6 475.8,328.6 475.8,316.7 470.8,321.7" fill="url(#skySide)"/>
+<polygon points="459.2,321.7 470.8,321.7 475.8,316.7 464.2,316.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="459.2,321.7 470.8,321.7 475.8,316.7 464.2,316.7" fill="#fff" opacity="0" style="animation-delay:5.03s"/></g><polygon points="473.8,333.6 485.4,333.6 490.4,328.6 478.8,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:488.4px 333.6px;animation-delay:0.84s">
+<rect x="488.4" y="315.1" width="11.6" height="18.5" fill="url(#skyFront)"/>
+<polygon points="500,333.6 505,328.6 505,310.1 500,315.1" fill="url(#skySide)"/>
+<polygon points="488.4,315.1 500,315.1 505,310.1 493.4,310.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="488.4,315.1 500,315.1 505,310.1 493.4,310.1" fill="#fff" opacity="0" style="animation-delay:5.26s"/></g><g class="grow" style="transform-origin:503px 333.6px;animation-delay:0.86s">
+<rect x="503" y="318" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="514.6,333.6 519.6,328.6 519.6,313 514.6,318" fill="url(#skySide)"/>
+<polygon points="503,318 514.6,318 519.6,313 508,313" fill="url(#skyTop)"/>
+<polygon class="flash" points="503,318 514.6,318 519.6,313 508,313" fill="#fff" opacity="0" style="animation-delay:5.37s"/></g><g class="grow" style="transform-origin:517.6px 333.6px;animation-delay:0.88s">
+<rect x="517.6" y="293.3" width="11.6" height="40.3" fill="url(#skyFront)"/>
+<polygon points="529.2,333.6 534.2,328.6 534.2,288.3 529.2,293.3" fill="url(#skySide)"/>
+<polygon points="517.6,293.3 529.2,293.3 534.2,288.3 522.6,288.3" fill="url(#skyTop)"/>
+<polygon class="flash" points="517.6,293.3 529.2,293.3 534.2,288.3 522.6,288.3" fill="#fff" opacity="0" style="animation-delay:5.49s"/></g><g class="grow" style="transform-origin:532.2px 333.6px;animation-delay:0.89s">
+<rect x="532.2" y="315.1" width="11.6" height="18.5" fill="url(#skyFront)"/>
+<polygon points="543.8,333.6 548.8,328.6 548.8,310.1 543.8,315.1" fill="url(#skySide)"/>
+<polygon points="532.2,315.1 543.8,315.1 548.8,310.1 537.2,310.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="532.2,315.1 543.8,315.1 548.8,310.1 537.2,310.1" fill="#fff" opacity="0" style="animation-delay:5.60s"/></g><g class="grow" style="transform-origin:546.8px 333.6px;animation-delay:0.91s">
+<rect x="546.8" y="298.6" width="11.6" height="35" fill="url(#skyFront)"/>
+<polygon points="558.4,333.6 563.4,328.6 563.4,293.6 558.4,298.6" fill="url(#skySide)"/>
+<polygon points="546.8,298.6 558.4,298.6 563.4,293.6 551.8,293.6" fill="url(#skyTop)"/>
+<polygon class="flash" points="546.8,298.6 558.4,298.6 563.4,293.6 551.8,293.6" fill="#fff" opacity="0" style="animation-delay:5.71s"/></g><g class="grow" style="transform-origin:561.4px 333.6px;animation-delay:0.93s">
+<rect x="561.4" y="308.4" width="11.6" height="25.2" fill="url(#skyFront)"/>
+<polygon points="573,333.6 578,328.6 578,303.4 573,308.4" fill="url(#skySide)"/>
+<polygon points="561.4,308.4 573,308.4 578,303.4 566.4,303.4" fill="url(#skyTop)"/>
+<polygon class="flash" points="561.4,308.4 573,308.4 578,303.4 566.4,303.4" fill="#fff" opacity="0" style="animation-delay:5.83s"/></g><g class="grow" style="transform-origin:576px 333.6px;animation-delay:0.95s">
+<rect x="576" y="318" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="587.6,333.6 592.6,328.6 592.6,313 587.6,318" fill="url(#skySide)"/>
+<polygon points="576,318 587.6,318 592.6,313 581,313" fill="url(#skyTop)"/>
+<polygon class="flash" points="576,318 587.6,318 592.6,313 581,313" fill="#fff" opacity="0" style="animation-delay:5.94s"/></g><polygon points="590.6,333.6 602.2,333.6 607.2,328.6 595.6,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="605.2,333.6 616.8,333.6 621.8,328.6 610.2,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:619.8px 333.6px;animation-delay:1.00s">
+<rect x="619.8" y="318" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="631.4,333.6 636.4,328.6 636.4,313 631.4,318" fill="url(#skySide)"/>
+<polygon points="619.8,318 631.4,318 636.4,313 624.8,313" fill="url(#skyTop)"/>
+<polygon class="flash" points="619.8,318 631.4,318 636.4,313 624.8,313" fill="#fff" opacity="0" style="animation-delay:6.29s"/></g><g class="grow" style="transform-origin:634.4px 333.6px;animation-delay:1.02s">
+<rect x="634.4" y="321.7" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="646,333.6 651,328.6 651,316.7 646,321.7" fill="url(#skySide)"/>
+<polygon points="634.4,321.7 646,321.7 651,316.7 639.4,316.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="634.4,321.7 646,321.7 651,316.7 639.4,316.7" fill="#fff" opacity="0" style="animation-delay:6.40s"/></g><g class="grow" style="transform-origin:649px 333.6px;animation-delay:1.04s">
+<rect x="649" y="321.7" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="660.6,333.6 665.6,328.6 665.6,316.7 660.6,321.7" fill="url(#skySide)"/>
+<polygon points="649,321.7 660.6,321.7 665.6,316.7 654,316.7" fill="url(#skyTop)"/>
+<polygon class="flash" points="649,321.7 660.6,321.7 665.6,316.7 654,316.7" fill="#fff" opacity="0" style="animation-delay:6.51s"/></g><polygon points="663.6,333.6 675.2,333.6 680.2,328.6 668.6,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:678.2px 333.6px;animation-delay:1.07s">
+<rect x="678.2" y="306.5" width="11.6" height="27.1" fill="url(#skyFront)"/>
+<polygon points="689.8,333.6 694.8,328.6 694.8,301.5 689.8,306.5" fill="url(#skySide)"/>
+<polygon points="678.2,306.5 689.8,306.5 694.8,301.5 683.2,301.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="678.2,306.5 689.8,306.5 694.8,301.5 683.2,301.5" fill="#fff" opacity="0" style="animation-delay:6.74s"/></g><polygon points="692.8,333.6 704.4,333.6 709.4,328.6 697.8,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="707.4,333.6 719,333.6 724,328.6 712.4,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="722,333.6 733.6,333.6 738.6,328.6 727,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="736.6,333.6 748.2,333.6 753.2,328.6 741.6,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="751.2,333.6 762.8,333.6 767.8,328.6 756.2,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="765.8,333.6 777.4,333.6 782.4,328.6 770.8,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:780.4px 333.6px;animation-delay:1.20s">
+<rect x="780.4" y="308.4" width="11.6" height="25.2" fill="url(#skyFront)"/>
+<polygon points="792,333.6 797,328.6 797,303.4 792,308.4" fill="url(#skySide)"/>
+<polygon points="780.4,308.4 792,308.4 797,303.4 785.4,303.4" fill="url(#skyTop)"/>
+<polygon class="flash" points="780.4,308.4 792,308.4 797,303.4 785.4,303.4" fill="#fff" opacity="0" style="animation-delay:7.54s"/></g><g class="grow" style="transform-origin:795px 333.6px;animation-delay:1.22s">
+<rect x="795" y="303.1" width="11.6" height="30.5" fill="url(#skyFront)"/>
+<polygon points="806.6,333.6 811.6,328.6 811.6,298.1 806.6,303.1" fill="url(#skySide)"/>
+<polygon points="795,303.1 806.6,303.1 811.6,298.1 800,298.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="795,303.1 806.6,303.1 811.6,298.1 800,298.1" fill="#fff" opacity="0" style="animation-delay:7.66s"/></g><polygon points="44,340 55.6,340 60.6,335 49,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="58.6,340 70.2,340 75.2,335 63.6,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:73.2px 340px;animation-delay:0.34s">
+<rect x="73.2" y="321.5" width="11.6" height="18.5" fill="url(#skyFront)"/>
+<polygon points="84.8,340 89.8,335 89.8,316.5 84.8,321.5" fill="url(#skySide)"/>
+<polygon points="73.2,321.5 84.8,321.5 89.8,316.5 78.2,316.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="73.2,321.5 84.8,321.5 89.8,316.5 78.2,316.5" fill="#fff" opacity="0" style="animation-delay:2.01s"/></g><polygon points="87.8,340 99.4,340 104.4,335 92.8,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="102.4,340 114,340 119,335 107.4,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="117,340 128.6,340 133.6,335 122,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="131.6,340 143.2,340 148.2,335 136.6,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="146.2,340 157.8,340 162.8,335 151.2,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="160.8,340 172.4,340 177.4,335 165.8,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="175.4,340 187,340 192,335 180.4,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="190,340 201.6,340 206.6,335 195,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="204.6,340 216.2,340 221.2,335 209.6,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="219.2,340 230.8,340 235.8,335 224.2,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="233.8,340 245.4,340 250.4,335 238.8,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="248.4,340 260,340 265,335 253.4,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="263,340 274.6,340 279.6,335 268,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="277.6,340 289.2,340 294.2,335 282.6,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="292.2,340 303.8,340 308.8,335 297.2,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="306.8,340 318.4,340 323.4,335 311.8,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="321.4,340 333,340 338,335 326.4,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="336,340 347.6,340 352.6,335 341,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="350.6,340 362.2,340 367.2,335 355.6,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="365.2,340 376.8,340 381.8,335 370.2,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="379.8,340 391.4,340 396.4,335 384.8,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="394.4,340 406,340 411,335 399.4,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="409,340 420.6,340 425.6,335 414,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="423.6,340 435.2,340 440.2,335 428.6,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="438.2,340 449.8,340 454.8,335 443.2,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="452.8,340 464.4,340 469.4,335 457.8,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:467.4px 340px;animation-delay:0.82s">
+<rect x="467.4" y="306.4" width="11.6" height="33.6" fill="url(#skyFront)"/>
+<polygon points="479,340 484,335 484,301.4 479,306.4" fill="url(#skySide)"/>
+<polygon points="467.4,306.4 479,306.4 484,301.4 472.4,301.4" fill="url(#skyTop)"/>
+<polygon class="flash" points="467.4,306.4 479,306.4 484,301.4 472.4,301.4" fill="#fff" opacity="0" style="animation-delay:5.09s"/></g><g class="grow" style="transform-origin:482px 340px;animation-delay:0.84s">
+<rect x="482" y="328.1" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="493.6,340 498.6,335 498.6,323.1 493.6,328.1" fill="url(#skySide)"/>
+<polygon points="482,328.1 493.6,328.1 498.6,323.1 487,323.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="482,328.1 493.6,328.1 498.6,323.1 487,323.1" fill="#fff" opacity="0" style="animation-delay:5.21s"/></g><g class="grow" style="transform-origin:496.6px 340px;animation-delay:0.86s">
+<rect x="496.6" y="324.4" width="11.6" height="15.6" fill="url(#skyFront)"/>
+<polygon points="508.2,340 513.2,335 513.2,319.4 508.2,324.4" fill="url(#skySide)"/>
+<polygon points="496.6,324.4 508.2,324.4 513.2,319.4 501.6,319.4" fill="url(#skyTop)"/>
+<polygon class="flash" points="496.6,324.4 508.2,324.4 513.2,319.4 501.6,319.4" fill="#fff" opacity="0" style="animation-delay:5.32s"/></g><g class="grow" style="transform-origin:511.2px 340px;animation-delay:0.88s">
+<rect x="511.2" y="286.6" width="11.6" height="53.4" fill="url(#skyFront)"/>
+<polygon points="522.8,340 527.8,335 527.8,281.6 522.8,286.6" fill="url(#skySide)"/>
+<polygon points="511.2,286.6 522.8,286.6 527.8,281.6 516.2,281.6" fill="url(#skyTop)"/>
+<polygon class="flash" points="511.2,286.6 522.8,286.6 527.8,281.6 516.2,281.6" fill="#fff" opacity="0" style="animation-delay:5.44s"/></g><polygon points="525.8,340 537.4,340 542.4,335 530.8,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:540.4px 340px;animation-delay:0.91s">
+<rect x="540.4" y="316.8" width="11.6" height="23.2" fill="url(#skyFront)"/>
+<polygon points="552,340 557,335 557,311.8 552,316.8" fill="url(#skySide)"/>
+<polygon points="540.4,316.8 552,316.8 557,311.8 545.4,311.8" fill="url(#skyTop)"/>
+<polygon class="flash" points="540.4,316.8 552,316.8 557,311.8 545.4,311.8" fill="#fff" opacity="0" style="animation-delay:5.66s"/></g><g class="grow" style="transform-origin:555px 340px;animation-delay:0.93s">
+<rect x="555" y="312.9" width="11.6" height="27.1" fill="url(#skyFront)"/>
+<polygon points="566.6,340 571.6,335 571.6,307.9 566.6,312.9" fill="url(#skySide)"/>
+<polygon points="555,312.9 566.6,312.9 571.6,307.9 560,307.9" fill="url(#skyTop)"/>
+<polygon class="flash" points="555,312.9 566.6,312.9 571.6,307.9 560,307.9" fill="#fff" opacity="0" style="animation-delay:5.78s"/></g><polygon points="569.6,340 581.2,340 586.2,335 574.6,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="584.2,340 595.8,340 600.8,335 589.2,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="598.8,340 610.4,340 615.4,335 603.8,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:613.4px 340px;animation-delay:1.00s">
+<rect x="613.4" y="328.1" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="625,340 630,335 630,323.1 625,328.1" fill="url(#skySide)"/>
+<polygon points="613.4,328.1 625,328.1 630,323.1 618.4,323.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="613.4,328.1 625,328.1 630,323.1 618.4,323.1" fill="#fff" opacity="0" style="animation-delay:6.24s"/></g><polygon points="628,340 639.6,340 644.6,335 633,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="642.6,340 654.2,340 659.2,335 647.6,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="657.2,340 668.8,340 673.8,335 662.2,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:671.8px 340px;animation-delay:1.07s">
+<rect x="671.8" y="316.8" width="11.6" height="23.2" fill="url(#skyFront)"/>
+<polygon points="683.4,340 688.4,335 688.4,311.8 683.4,316.8" fill="url(#skySide)"/>
+<polygon points="671.8,316.8 683.4,316.8 688.4,311.8 676.8,311.8" fill="url(#skyTop)"/>
+<polygon class="flash" points="671.8,316.8 683.4,316.8 688.4,311.8 676.8,311.8" fill="#fff" opacity="0" style="animation-delay:6.69s"/></g><g class="grow" style="transform-origin:686.4px 340px;animation-delay:1.09s">
+<rect x="686.4" y="259.5" width="11.6" height="80.5" fill="url(#skyFront)"/>
+<polygon points="698,340 703,335 703,254.5 698,259.5" fill="url(#skySide)"/>
+<polygon points="686.4,259.5 698,259.5 703,254.5 691.4,254.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="686.4,259.5 698,259.5 703,254.5 691.4,254.5" fill="#fff" opacity="0" style="animation-delay:6.81s"/></g><g class="grow" style="transform-origin:701px 340px;animation-delay:1.11s">
+<rect x="701" y="285.6" width="11.6" height="54.4" fill="url(#skyFront)"/>
+<polygon points="712.6,340 717.6,335 717.6,280.6 712.6,285.6" fill="url(#skySide)"/>
+<polygon points="701,285.6 712.6,285.6 717.6,280.6 706,280.6" fill="url(#skyTop)"/>
+<polygon class="flash" points="701,285.6 712.6,285.6 717.6,280.6 706,280.6" fill="#fff" opacity="0" style="animation-delay:6.92s"/></g><g class="grow" style="transform-origin:715.6px 340px;animation-delay:1.13s">
+<rect x="715.6" y="328.1" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="727.2,340 732.2,335 732.2,323.1 727.2,328.1" fill="url(#skySide)"/>
+<polygon points="715.6,328.1 727.2,328.1 732.2,323.1 720.6,323.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="715.6,328.1 727.2,328.1 732.2,323.1 720.6,323.1" fill="#fff" opacity="0" style="animation-delay:7.04s"/></g><g class="grow" style="transform-origin:730.2px 340px;animation-delay:1.15s">
+<rect x="730.2" y="297.2" width="11.6" height="42.8" fill="url(#skyFront)"/>
+<polygon points="741.8,340 746.8,335 746.8,292.2 741.8,297.2" fill="url(#skySide)"/>
+<polygon points="730.2,297.2 741.8,297.2 746.8,292.2 735.2,292.2" fill="url(#skyTop)"/>
+<polygon class="flash" points="730.2,297.2 741.8,297.2 746.8,292.2 735.2,292.2" fill="#fff" opacity="0" style="animation-delay:7.15s"/></g><polygon points="744.8,340 756.4,340 761.4,335 749.8,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="759.4,340 771,340 776,335 764.4,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:774px 340px;animation-delay:1.20s">
+<rect x="774" y="309.5" width="11.6" height="30.5" fill="url(#skyFront)"/>
+<polygon points="785.6,340 790.6,335 790.6,304.5 785.6,309.5" fill="url(#skySide)"/>
+<polygon points="774,309.5 785.6,309.5 790.6,304.5 779,304.5" fill="url(#skyTop)"/>
+<polygon class="flash" points="774,309.5 785.6,309.5 790.6,304.5 779,304.5" fill="#fff" opacity="0" style="animation-delay:7.49s"/></g><g class="grow" style="transform-origin:788.6px 340px;animation-delay:1.22s">
+<rect x="788.6" y="328.1" width="11.6" height="11.9" fill="url(#skyFront)"/>
+<polygon points="800.2,340 805.2,335 805.2,323.1 800.2,328.1" fill="url(#skySide)"/>
+<polygon points="788.6,328.1 800.2,328.1 805.2,323.1 793.6,323.1" fill="url(#skyTop)"/>
+<polygon class="flash" points="788.6,328.1 800.2,328.1 805.2,323.1 793.6,323.1" fill="#fff" opacity="0" style="animation-delay:7.61s"/></g><rect x="-26" y="173.6" width="60" height="174.4" fill="url(#scan)" opacity="0">
+<animate attributeName="x" values="-26;868.1999999999999" dur="7s" begin="1.4s" repeatCount="indefinite"/>
+<set attributeName="opacity" to="1" begin="1.4s"/></rect><path d="M801.5 194.3V180.3" stroke="#f472b6" stroke-opacity=".7"/>
+<circle class="pulse" cx="801.5" cy="198.3" r="3" fill="#f472b6"/>
+<text class="mono" x="809.5" y="174.3" font-size="10.5" font-weight="700" fill="#f472b6" text-anchor="end">▲ 128 on Oct 21</text><text class="mono" x="102.4" y="360" font-size="10" fill="#6c7499">Dec</text><text class="mono" x="160.8" y="360" font-size="10" fill="#a7aed0">Jan ’26</text><text class="mono" x="233.8" y="360" font-size="10" fill="#6c7499">Feb</text><text class="mono" x="292.2" y="360" font-size="10" fill="#6c7499">Mar</text><text class="mono" x="350.6" y="360" font-size="10" fill="#6c7499">Apr</text><text class="mono" x="409" y="360" font-size="10" fill="#6c7499">May</text><text class="mono" x="482" y="360" font-size="10" fill="#6c7499">Jun</text><text class="mono" x="540.4" y="360" font-size="10" fill="#6c7499">Jul</text><text class="mono" x="598.8" y="360" font-size="10" fill="#6c7499">Aug</text><text class="mono" x="671.8" y="360" font-size="10" fill="#6c7499">Sep</text><text class="mono" x="730.2" y="360" font-size="10" fill="#6c7499">Oct</text><text class="mono" x="803.2" y="360" font-size="10" fill="#6c7499">Nov</text><text class="mono" x="28" y="399" font-size="10.5" fill="#6c7499">each tower = one day · height = contributions · Sun at the back, Sat in front</text>
+<text class="mono" x="764" y="399" font-size="10.5" fill="#6c7499" text-anchor="end">less</text>
+<rect x="772" y="390" width="11" height="11" rx="2.5" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><rect x="787" y="390" width="11" height="11" rx="2.5" fill="#4c3aa8" stroke="#1f2648" stroke-width=".6"/><rect x="802" y="390" width="11" height="11" rx="2.5" fill="#a78bfa" stroke="#1f2648" stroke-width=".6"/><rect x="817" y="390" width="11" height="11" rx="2.5" fill="#f472b6" stroke="#1f2648" stroke-width=".6"/><rect x="832" y="390" width="11" height="11" rx="2.5" fill="#fbbf24" stroke="#1f2648" stroke-width=".6"/>
+<text class="mono" x="872" y="399" font-size="10.5" fill="#6c7499" text-anchor="end">more</text>
+</g>
+<rect x=".5" y=".5" width="899" height="419" rx="17.5" fill="none" stroke="#232b4d"/>
+</svg>
