@@ -12,7 +12,7 @@
 
 ## 📈 the training log
 
-<img src="assets/contributions.da7f4995.svg" alt="Contribution skyline: my GitHub contributions over the last year as a 3D city of towers, one per day, with totals, best day and streaks." width="100%">
+<img src="assets/contributions.670874ad.svg" alt="Contribution skyline: my GitHub contributions over the last year as a 3D city of towers, one per day, with totals, best day and streaks." width="100%">
 
 ## 🗺️ the course map
 
