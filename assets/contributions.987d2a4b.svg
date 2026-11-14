@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title">
-<title id="title">Contribution skyline — 1554 contributions in the last year, 117 active days, best day 128 on Oct 21, longest streak 20 days, current streak 2 days</title>
+<title id="title">Contribution skyline — 1570 contributions in the last year, 118 active days, best day 128 on Oct 21, longest streak 20 days, current streak 3 days</title>
 <style>
 .sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, Menlo, monospace}
 .rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
@@ -25,13 +25,13 @@
 <rect width="900" height="46" fill="#0c1022"/><path d="M0 46H900" stroke="#232b4d"/>
 <circle cx="24" cy="23" r="5.5" fill="#ff5f57"/><circle cx="43" cy="23" r="5.5" fill="#febc2e"/><circle cx="62" cy="23" r="5.5" fill="#28c840"/>
 <text class="mono" x="450" y="27.5" font-size="12.5" fill="#a7aed0" text-anchor="middle">~/activity — git log --since=&quot;1 year ago&quot; | skyline</text>
-<text class="mono" x="878" y="27.5" font-size="11" fill="#6c7499" text-anchor="end">updated Nov 13</text><g class="rise" style="animation-delay:0.10s">
+<text class="mono" x="878" y="27.5" font-size="11" fill="#6c7499" text-anchor="end">updated Nov 14</text><g class="rise" style="animation-delay:0.10s">
 <text class="mono" x="32" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">CONTRIBUTIONS</text>
-<text class="sans" x="32" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">1554</text>
+<text class="sans" x="32" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">1570</text>
 <text class="mono" x="32" y="132" font-size="10.5" fill="#a7aed0">in the last year</text></g><path d="M196.8 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.20s">
 <text class="mono" x="214.8" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">ACTIVE DAYS</text>
-<text class="sans" x="214.8" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">117</text>
-<text class="mono" x="214.8" y="132" font-size="10.5" fill="#a7aed0">out of 370</text></g><path d="M365.6 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.30s">
+<text class="sans" x="214.8" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">118</text>
+<text class="mono" x="214.8" y="132" font-size="10.5" fill="#a7aed0">out of 371</text></g><path d="M365.6 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.30s">
 <text class="mono" x="383.6" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">BEST DAY</text>
 <text class="sans" x="383.6" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">128</text>
 <text class="mono" x="383.6" y="132" font-size="10.5" fill="#a7aed0">on Oct 21</text></g><path d="M534.4 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.40s">
@@ -39,7 +39,7 @@
 <text class="sans" x="552.4" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">20</text>
 <text class="mono" x="552.4" y="132" font-size="10.5" fill="#a7aed0">days in a row</text></g><path d="M703.2 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.50s">
 <text class="mono" x="721.2" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">CURRENT STREAK</text>
-<text class="sans" x="721.2" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">2</text>
+<text class="sans" x="721.2" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">3</text>
 <text class="mono" x="721.2" y="132" font-size="10.5" fill="#a7aed0">days and counting</text></g><circle cx="786.9" cy="200.3" r="90" fill="url(#peakGlow)"/><polygon points="82.4,301.6 94,301.6 99,296.6 87.4,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="97,301.6 108.6,301.6 113.6,296.6 102,296.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:111.6px 301.6px;animation-delay:0.34s">
 <rect x="111.6" y="269.5" width="11.6" height="32.1" fill="url(#skyFront)"/>
 <polygon points="123.2,301.6 128.2,296.6 128.2,264.5 123.2,269.5" fill="url(#skySide)"/>
@@ -444,7 +444,11 @@
 <rect x="795" y="321.7" width="11.6" height="11.9" fill="url(#skyFront)"/>
 <polygon points="806.6,333.6 811.6,328.6 811.6,316.7 806.6,321.7" fill="url(#skySide)"/>
 <polygon points="795,321.7 806.6,321.7 811.6,316.7 800,316.7" fill="url(#skyTop)"/>
-<polygon class="flash" points="795,321.7 806.6,321.7 811.6,316.7 800,316.7" fill="#fff" opacity="0" style="animation-delay:7.66s"/></g><polygon points="809.6,333.6 821.2,333.6 826.2,328.6 814.6,328.6" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="44,340 55.6,340 60.6,335 49,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:58.6px 340px;animation-delay:0.32s">
+<polygon class="flash" points="795,321.7 806.6,321.7 811.6,316.7 800,316.7" fill="#fff" opacity="0" style="animation-delay:7.66s"/></g><g class="grow" style="transform-origin:809.6px 333.6px;animation-delay:1.24s">
+<rect x="809.6" y="293.3" width="11.6" height="40.3" fill="url(#skyFront)"/>
+<polygon points="821.2,333.6 826.2,328.6 826.2,288.3 821.2,293.3" fill="url(#skySide)"/>
+<polygon points="809.6,293.3 821.2,293.3 826.2,288.3 814.6,288.3" fill="url(#skyTop)"/>
+<polygon class="flash" points="809.6,293.3 821.2,293.3 826.2,288.3 814.6,288.3" fill="#fff" opacity="0" style="animation-delay:7.77s"/></g><polygon points="44,340 55.6,340 60.6,335 49,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:58.6px 340px;animation-delay:0.32s">
 <rect x="58.6" y="321.5" width="11.6" height="18.5" fill="url(#skyFront)"/>
 <polygon points="70.2,340 75.2,335 75.2,316.5 70.2,321.5" fill="url(#skySide)"/>
 <polygon points="58.6,321.5 70.2,321.5 75.2,316.5 63.6,316.5" fill="url(#skyTop)"/>
@@ -508,7 +512,7 @@
 <rect x="788.6" y="307.9" width="11.6" height="32.1" fill="url(#skyFront)"/>
 <polygon points="800.2,340 805.2,335 805.2,302.9 800.2,307.9" fill="url(#skySide)"/>
 <polygon points="788.6,307.9 800.2,307.9 805.2,302.9 793.6,302.9" fill="url(#skyTop)"/>
-<polygon class="flash" points="788.6,307.9 800.2,307.9 805.2,302.9 793.6,302.9" fill="#fff" opacity="0" style="animation-delay:7.61s"/></g><rect x="-26" y="173.6" width="60" height="174.4" fill="url(#scan)" opacity="0">
+<polygon class="flash" points="788.6,307.9 800.2,307.9 805.2,302.9 793.6,302.9" fill="#fff" opacity="0" style="animation-delay:7.61s"/></g><polygon points="803.2,340 814.8,340 819.8,335 808.2,335" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><rect x="-26" y="173.6" width="60" height="174.4" fill="url(#scan)" opacity="0">
 <animate attributeName="x" values="-26;868.1999999999999" dur="7s" begin="1.4s" repeatCount="indefinite"/>
 <set attributeName="opacity" to="1" begin="1.4s"/></rect><path d="M786.9 194.3V180.3" stroke="#f472b6" stroke-opacity=".7"/>
 <circle class="pulse" cx="786.9" cy="198.3" r="3" fill="#f472b6"/>
