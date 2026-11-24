@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420" role="img" aria-labelledby="title">
-<title id="title">Contribution skyline — 2184 contributions in the last year, 123 active days, best day 270 on Nov 15, longest streak 20 days, current streak 9 days</title>
+<title id="title">Contribution skyline — 2233 contributions in the last year, 124 active days, best day 270 on Nov 15, longest streak 20 days, current streak 10 days</title>
 <style>
 .sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Roboto, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, 'SF Mono', 'Cascadia Code', 'JetBrains Mono', Consolas, Menlo, monospace}
 .rise{animation:rise .7s cubic-bezier(.2,.7,.2,1) both}
@@ -25,13 +25,13 @@
 <rect width="900" height="46" fill="#0c1022"/><path d="M0 46H900" stroke="#232b4d"/>
 <circle cx="24" cy="23" r="5.5" fill="#ff5f57"/><circle cx="43" cy="23" r="5.5" fill="#febc2e"/><circle cx="62" cy="23" r="5.5" fill="#28c840"/>
 <text class="mono" x="450" y="27.5" font-size="12.5" fill="#a7aed0" text-anchor="middle">~/activity — git log --since=&quot;1 year ago&quot; | skyline</text>
-<text class="mono" x="878" y="27.5" font-size="11" fill="#6c7499" text-anchor="end">updated Nov 23</text><g class="rise" style="animation-delay:0.10s">
+<text class="mono" x="878" y="27.5" font-size="11" fill="#6c7499" text-anchor="end">updated Nov 24</text><g class="rise" style="animation-delay:0.10s">
 <text class="mono" x="32" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">CONTRIBUTIONS</text>
-<text class="sans" x="32" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">2184</text>
+<text class="sans" x="32" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">2233</text>
 <text class="mono" x="32" y="132" font-size="10.5" fill="#a7aed0">in the last year</text></g><path d="M196.8 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.20s">
 <text class="mono" x="214.8" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">ACTIVE DAYS</text>
-<text class="sans" x="214.8" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">123</text>
-<text class="mono" x="214.8" y="132" font-size="10.5" fill="#a7aed0">out of 366</text></g><path d="M365.6 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.30s">
+<text class="sans" x="214.8" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">124</text>
+<text class="mono" x="214.8" y="132" font-size="10.5" fill="#a7aed0">out of 367</text></g><path d="M365.6 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.30s">
 <text class="mono" x="383.6" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">BEST DAY</text>
 <text class="sans" x="383.6" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">270</text>
 <text class="mono" x="383.6" y="132" font-size="10.5" fill="#a7aed0">on Nov 15</text></g><path d="M534.4 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.40s">
@@ -39,7 +39,7 @@
 <text class="sans" x="552.4" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">20</text>
 <text class="mono" x="552.4" y="132" font-size="10.5" fill="#a7aed0">days in a row</text></g><path d="M703.2 72V132" stroke="#232b4d"/><g class="rise" style="animation-delay:0.50s">
 <text class="mono" x="721.2" y="80" font-size="10" letter-spacing="1.5" fill="#6c7499">CURRENT STREAK</text>
-<text class="sans" x="721.2" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">9</text>
+<text class="sans" x="721.2" y="114" font-size="30" font-weight="800" fill="url(#statGrad)">10</text>
 <text class="mono" x="721.2" y="132" font-size="10.5" fill="#a7aed0">days and counting</text></g><circle cx="835.3" cy="181.1" r="90" fill="url(#peakGlow)"/><g class="grow" style="transform-origin:82.4px 301.6px;animation-delay:0.30s">
 <rect x="82.4" y="279" width="11.6" height="22.6" fill="url(#skyFront)"/>
 <polygon points="94,301.6 99,296.6 99,274 94,279" fill="url(#skySide)"/>
@@ -244,7 +244,11 @@
 <rect x="814.2" y="250.4" width="11.6" height="64" fill="url(#skyFront)"/>
 <polygon points="825.8,314.4 830.8,309.4 830.8,245.4 825.8,250.4" fill="url(#skySide)"/>
 <polygon points="814.2,250.4 825.8,250.4 830.8,245.4 819.2,245.4" fill="url(#skyTop)"/>
-<polygon class="flash" points="814.2,250.4 825.8,250.4 830.8,245.4 819.2,245.4" fill="#fff" opacity="0" style="animation-delay:7.81s"/></g><polygon points="63.2,320.8 74.8,320.8 79.8,315.8 68.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="77.8,320.8 89.4,320.8 94.4,315.8 82.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="92.4,320.8 104,320.8 109,315.8 97.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="107,320.8 118.6,320.8 123.6,315.8 112,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="121.6,320.8 133.2,320.8 138.2,315.8 126.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="136.2,320.8 147.8,320.8 152.8,315.8 141.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="150.8,320.8 162.4,320.8 167.4,315.8 155.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="165.4,320.8 177,320.8 182,315.8 170.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="180,320.8 191.6,320.8 196.6,315.8 185,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="194.6,320.8 206.2,320.8 211.2,315.8 199.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="209.2,320.8 220.8,320.8 225.8,315.8 214.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="223.8,320.8 235.4,320.8 240.4,315.8 228.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="238.4,320.8 250,320.8 255,315.8 243.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="253,320.8 264.6,320.8 269.6,315.8 258,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="267.6,320.8 279.2,320.8 284.2,315.8 272.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="282.2,320.8 293.8,320.8 298.8,315.8 287.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:296.8px 320.8px;animation-delay:0.59s">
+<polygon class="flash" points="814.2,250.4 825.8,250.4 830.8,245.4 819.2,245.4" fill="#fff" opacity="0" style="animation-delay:7.81s"/></g><g class="grow" style="transform-origin:828.8px 314.4px;animation-delay:1.24s">
+<rect x="828.8" y="265.8" width="11.6" height="48.6" fill="url(#skyFront)"/>
+<polygon points="840.4,314.4 845.4,309.4 845.4,260.8 840.4,265.8" fill="url(#skySide)"/>
+<polygon points="828.8,265.8 840.4,265.8 845.4,260.8 833.8,260.8" fill="url(#skyTop)"/>
+<polygon class="flash" points="828.8,265.8 840.4,265.8 845.4,260.8 833.8,260.8" fill="#fff" opacity="0" style="animation-delay:7.92s"/></g><polygon points="63.2,320.8 74.8,320.8 79.8,315.8 68.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="77.8,320.8 89.4,320.8 94.4,315.8 82.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="92.4,320.8 104,320.8 109,315.8 97.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="107,320.8 118.6,320.8 123.6,315.8 112,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="121.6,320.8 133.2,320.8 138.2,315.8 126.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="136.2,320.8 147.8,320.8 152.8,315.8 141.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="150.8,320.8 162.4,320.8 167.4,315.8 155.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="165.4,320.8 177,320.8 182,315.8 170.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="180,320.8 191.6,320.8 196.6,315.8 185,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="194.6,320.8 206.2,320.8 211.2,315.8 199.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="209.2,320.8 220.8,320.8 225.8,315.8 214.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="223.8,320.8 235.4,320.8 240.4,315.8 228.8,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="238.4,320.8 250,320.8 255,315.8 243.4,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="253,320.8 264.6,320.8 269.6,315.8 258,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="267.6,320.8 279.2,320.8 284.2,315.8 272.6,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><polygon points="282.2,320.8 293.8,320.8 298.8,315.8 287.2,315.8" fill="#151b38" stroke="#1f2648" stroke-width=".6"/><g class="grow" style="transform-origin:296.8px 320.8px;animation-delay:0.59s">
 <rect x="296.8" y="301.5" width="11.6" height="19.3" fill="url(#skyFront)"/>
 <polygon points="308.4,320.8 313.4,315.8 313.4,296.5 308.4,301.5" fill="url(#skySide)"/>
 <polygon points="296.8,301.5 308.4,301.5 313.4,296.5 301.8,296.5" fill="url(#skyTop)"/>
